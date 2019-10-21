@@ -32,7 +32,20 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"pt-4\">DevFecta is a web development, design, and consulting company based in Fitchburg, Wisconsin that offers professional website design, web development, \nand graphic design services. And try my consulting service if you just need a little help with a current web project.</p>\n<p>DevFecta is owned and operated by me, Kevin Kelm.</p>\n<section class=\"pt-3\">\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">\n\t\t\t<h2>Work Experience</h2>\n\t\t</div>\n\t\t<div class=\"card-body d-flex flex-wrap\">\n\t\t\t<div class=\"card col-md-6 col-sm-12 border-0\">\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<h5 class=\"card-title\">Web Developer</h5>\n\t\t\t\t\t<p class=\"card-text\">January 2014 – Present  It’s Advertising, LLC, Stoughton, WI</p>\n\t\t\t\t\t<ul class=\"list-group list-group-flush\">\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tIt’s Advertising, LLC is a side project of mine, and I address any technical questions and \n\t\t\t\t\t\t\tissues for the company. Also, I developed the AdHound ad tracking web application \n\t\t\t\t\t\t\twhich is written in PHP and MySQL\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-md-6 col-sm-12 border-0\">\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<h5 class=\"card-title\">Freelance Graphic Designer & Web Developer</h5>\n\t\t\t\t\t<p class=\"card-text\">March 2008 – Present  Fitchburg, WI</p>\n\t\t\t\t\t<ul class=\"list-group list-group-flush\">\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tDesigned and developed websites using an array of languages such as \n\t\t\t\t\t\t\tPHP, ASP.Net, CSS, HTML, and JavaScript\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tCreate logos and various graphics for clients\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-md-6 col-sm-12 border-0\">\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<h5 class=\"card-title\">Graphic Designer</h5>\n\t\t\t\t\t<p class=\"card-text\">September 2003 – March 2008  WTS Paradigm, Middleton, WI</p>\n\t\t\t\t\t<ul class=\"list-group list-group-flush\">\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tResponsible for designing all advertising and promotional materials,  \n\t\t\t\t\t\t\tincluding: package design, magazine ads, trade show materials such as booth graphics, \n\t\t\t\t\t\t\tand web design                            \n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tDeveloped the WTS Paradigm website using Fireworks and Dreamweaver,  \n\t\t\t\t\t\t\tthen imported the HTML code and CSS information into Visual Studio to produce \n\t\t\t\t\t\t\tASP.Net files that are tied to a SQL database for displaying product information\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\tSoftware development experiences include writing product knowledge code in \n\t\t\t\t\t\t\tVisual Basic and C# .Net that the WTS Paradigm software uses to produce exact \n\t\t\t\t\t\t\tproduct quotes for WTS Paradigm clients                           \n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-md-6 col-sm-12 border-0\">\n\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t<h5 class=\"card-title\">Web Designer</h5>\n\t\t\t\t\t\t<p class=\"card-text\">September 1999 - September 2003  Nasco, Fort Atkinson, WI</p>\n\t\t\t\t\t\t<ul class=\"list-group list-group-flush\">\n\t\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\t\tDesigned concepts for Nasco's e-commerce website using Fireworks, and then \n\t\t\t\t\t\t\t\texported the approved layout to HTML code to create templates and apply CSS\n\t\t\t\t\t\t\t\tinformation in Dreamweaver and BBEdit\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\t\tWorked with development team to implement web layouts for company website\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li class=\"list-group-item\">\n\t\t\t\t\t\t\t\tTrained new employees on the development process at Nasco\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"row jumbotron\">\n\n<p class=\"font-weight-bold\">DevFecta is a web development, design, and consulting company based in Fitchburg, Wisconsin that offers professional website design, web development, \nand graphic design services. And try my consulting service if you just need a little help with a current web project.</p>\n\n</section>\n\n<section class=\"row pb-5\">\n\t<div class=\"container featurette\">\n\t\t<h2 class=\"featurette-heading\">Development</h2>\n\t\t<p>DevFecta's web development and programming expertise integrates custom programming and design to create interactive web systems that will grow with your business. We understand that your website should reflect who you are, and is a primary contact for your business.</p>\n\t\t<p>Your goals are at the forefront of every project we do and will provide reliable ongoing tech support to our clients.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Development.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>\n\n<div class=\"row\">\n\t<svg id=\"Divider-Top\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n\t\t<polygon points=\"0,100 100,100 0,0\" />\n\t</svg>\n</div>\n\n<section class=\"row pb-5\" style=\"background: rgba(0, 49, 83, 1);\">\n\t<div class=\"container featurette\" style=\"color:#ffffff\">\n\t\t<h2 class=\"featurette-heading text-light\">Design</h2>\n\t\t<p>DevFecta, LLC develops websites of all sizes. Our web design process can either start completely from scratch, or with the dynamic CMS Wordpress that can customized to meet your business needs. Our experienced team can have a completely customized web solution, backend administrative controls, and a website that will grow with your business.</p>\n\t\t<p>Give your business an online web presence with information about your products or services. Your website will be custom designed and developed to meet the needs of your business.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" style=\"background: rgba(255, 255, 255, 1); color: rgba(30, 50, 170, 1);\" href=\"Design.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>\n\n<div class=\"row\">\n\t<svg id=\"Divider-Bottom\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n\t\t<polygon points=\"100,0 100,100 0,0\" />\n\t</svg>\n</div>\n<!--\n<div class=\"Divider-Botto\" style=\"background: rgba(30, 50, 170, 1);\">&nbsp;</div>\n-->\n<section class=\"row pb-5\">\n\t<div class=\"container featurette\">\n\t\t<h2 class=\"featurette-heading\">Consulting</h2>\n\t\t<p>Got a web project that's grown and just need a little extra help, or just can't figure out an issue on your website? DevFecta, LLC can help! Our experienced team can sit down and meet with you to find the best solution to help you with your web project.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Consulting.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Work Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Web Developer</h5>\n                    <p class=\"card-text\">January 2014 – Present  It’s Advertising, LLC, Stoughton, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            It’s Advertising, LLC is a side project of mine, and I address any technical questions and \n                            issues for the company. Also, I developed the AdHound ad tracking web application \n                            which is written in PHP and MySQL\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Freelance Graphic Designer & Web Developer</h5>\n                    <p class=\"card-text\">March 2008 – Present  Fitchburg, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Designed and developed websites using an array of languages such as \n                            PHP, ASP.Net, CSS, HTML, and JavaScript\n                        </li>\n                        <li class=\"list-group-item\">\n                            Create logos and various graphics for clients\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Graphic Designer</h5>\n                    <p class=\"card-text\">September 2003 – March 2008  WTS Paradigm, Middleton, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Responsible for designing all advertising and promotional materials,  \n                            including: package design, magazine ads, trade show materials such as booth graphics, \n                            and web design                            \n                        </li>\n                        <li class=\"list-group-item\">\n                            Developed the WTS Paradigm website using Fireworks and Dreamweaver,  \n                            then imported the HTML code and CSS information into Visual Studio to produce \n                            ASP.Net files that are tied to a SQL database for displaying product information\n                        </li>\n                        <li class=\"list-group-item\">\n                            Software development experiences include writing product knowledge code in \n                            Visual Basic and C# .Net that the WTS Paradigm software uses to produce exact \n                            product quotes for WTS Paradigm clients                           \n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">Web Designer</h5>\n                        <p class=\"card-text\">September 1999 - September 2003  Nasco, Fort Atkinson, WI</p>\n                        <ul class=\"list-group list-group-flush\">\n                            <li class=\"list-group-item\">\n                                Designed concepts for Nasco's e-commerce website using Fireworks, and then \n                                exported the approved layout to HTML code to create templates and apply CSS\n                                information in Dreamweaver and BBEdit\n                            </li>\n                            <li class=\"list-group-item\">\n                                Worked with development team to implement web layouts for company website\n                            </li>\n                            <li class=\"list-group-item\">\n                                Trained new employees on the development process at Nasco\n                            </li>\n                        </ul>\n                    </div>\n            </div>\n        </div>\n    </div>\n</section>\n");
 
 /***/ }),
 
@@ -274,7 +287,7 @@ function __importDefault(mod) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("#Divider-Top {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Top > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n#Divider-Bottom {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Bottom > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n@media screen and (max-width: 750px) {\n    #Divider-Top, #Divider-Bottom {\n        display:none;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsWUFBWTtJQUNaLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QixZQUFZO0lBQ1osbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0k7UUFDSSxZQUFZO0lBQ2hCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNEaXZpZGVyLVRvcCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbn1cblxuI0RpdmlkZXItVG9wID4gcG9seWdvbiB7XG4gICAgZmlsbDogcmdiYSgwLCA0OSwgODMsIDEpO1xuICAgIHN0cm9rZTogbm9uZTtcbiAgICBzdHJva2Utd2lkdGg6IHVuc2V0O1xufVxuXG4jRGl2aWRlci1Cb3R0b20ge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbiNEaXZpZGVyLUJvdHRvbSA+IHBvbHlnb24ge1xuICAgIGZpbGw6IHJnYmEoMCwgNDksIDgzLCAxKTtcbiAgICBzdHJva2U6IG5vbmU7XG4gICAgc3Ryb2tlLXdpZHRoOiB1bnNldDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzUwcHgpIHtcbiAgICAjRGl2aWRlci1Ub3AsICNEaXZpZGVyLUJvdHRvbSB7XG4gICAgICAgIGRpc3BsYXk6bm9uZTtcbiAgICB9XG59Il19 */");
 
 /***/ }),
 
@@ -323,6 +336,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+
 
 
 
@@ -332,7 +347,8 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]
+            _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+            _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__["ResumeComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
@@ -341,6 +357,50 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/resume/resume.component.css ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Jlc3VtZS9yZXN1bWUuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/resume/resume.component.ts ***!
+  \********************************************/
+/*! exports provided: ResumeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ResumeComponent = class ResumeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ResumeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-resume',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./resume.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./resume.component.css */ "./src/app/resume/resume.component.css")).default]
+    })
+], ResumeComponent);
 
 
 
