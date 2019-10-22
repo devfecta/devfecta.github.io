@@ -28,7 +28,18 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"row jumbotron\">\n\n<p class=\"font-weight-bold\">DevFecta is a web development, design, and consulting company based in Fitchburg, Wisconsin that offers professional website design, web development, \nand graphic design services. And try my consulting service if you just need a little help with a current web project.</p>\n\n</section>\n\n<section class=\"row pb-5\">\n\t<div class=\"container featurette\">\n\t\t<h2 class=\"featurette-heading\">Development</h2>\n\t\t<p>DevFecta's web development and programming expertise integrates custom programming and design to create interactive web systems that will grow with your business. We understand that your website should reflect who you are, and is a primary contact for your business.</p>\n\t\t<p>Your goals are at the forefront of every project we do and will provide reliable ongoing tech support to our clients.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Development.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>\n\n<div class=\"row\">\n\t<svg id=\"Divider-Top\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n\t\t<polygon points=\"0,100 100,100 0,0\" />\n\t</svg>\n</div>\n\n<section class=\"row pb-5\" style=\"background: rgba(0, 49, 83, 1);\">\n\t<div class=\"container featurette\" style=\"color:#ffffff\">\n\t\t<h2 class=\"featurette-heading text-light\">Design</h2>\n\t\t<p>DevFecta, LLC develops websites of all sizes. Our web design process can either start completely from scratch, or with the dynamic CMS Wordpress that can customized to meet your business needs. Our experienced team can have a completely customized web solution, backend administrative controls, and a website that will grow with your business.</p>\n\t\t<p>Give your business an online web presence with information about your products or services. Your website will be custom designed and developed to meet the needs of your business.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" style=\"background: rgba(255, 255, 255, 1); color: rgba(30, 50, 170, 1);\" href=\"Design.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>\n\n<div class=\"row\">\n\t<svg id=\"Divider-Bottom\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n\t\t<polygon points=\"100,0 100,100 0,0\" />\n\t</svg>\n</div>\n<!--\n<div class=\"Divider-Botto\" style=\"background: rgba(30, 50, 170, 1);\">&nbsp;</div>\n-->\n<section class=\"row pb-5\">\n\t<div class=\"container featurette\">\n\t\t<h2 class=\"featurette-heading\">Consulting</h2>\n\t\t<p>Got a web project that's grown and just need a little extra help, or just can't figure out an issue on your website? DevFecta, LLC can help! Our experienced team can sit down and meet with you to find the best solution to help you with your web project.</p>\n\t\t<p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Consulting.aspx\" role=\"button\">More Info &raquo;</a></p>\n\t</div>\n</section>");
+            /* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>");
+            /***/ 
+        }),
+        /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html": 
+        /*!********************************************************************************!*\
+          !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+          \********************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"row jumbotron\">\n\n    <p class=\"font-weight-bold\">DevFecta is a web development, design, and consulting company based in Fitchburg, Wisconsin that offers professional website design, web development, \n    and graphic design services. And try my consulting service if you just need a little help with a current web project.</p>\n\n</section>\n\n<section class=\"row pb-5\">\n    <div class=\"container featurette\">\n        <h2 class=\"featurette-heading\">Development</h2>\n        <p>DevFecta's web development and programming expertise integrates custom programming and design to create interactive web systems that will grow with your business. We understand that your website should reflect who you are, and is a primary contact for your business.</p>\n        <p>Your goals are at the forefront of every project we do and will provide reliable ongoing tech support to our clients.</p>\n        <p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Development.aspx\" role=\"button\">More Info &raquo;</a></p>\n    </div>\n</section>\n\n<div class=\"row\">\n    <svg id=\"Divider-Top\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n        <polygon points=\"0,100 100,100 0,0\" />\n    </svg>\n</div>\n\n<section class=\"row pb-5\" style=\"background: rgba(0, 49, 83, 1);\">\n    <div class=\"container featurette\" style=\"color:#ffffff\">\n        <h2 class=\"featurette-heading text-light\">Design</h2>\n        <p>DevFecta, LLC develops websites of all sizes. Our web design process can either start completely from scratch, or with the dynamic CMS Wordpress that can customized to meet your business needs. Our experienced team can have a completely customized web solution, backend administrative controls, and a website that will grow with your business.</p>\n        <p>Give your business an online web presence with information about your products or services. Your website will be custom designed and developed to meet the needs of your business.</p>\n        <p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" style=\"background: rgba(255, 255, 255, 1); color: rgba(30, 50, 170, 1);\" href=\"Design.aspx\" role=\"button\">More Info &raquo;</a></p>\n    </div>\n</section>\n\n<div class=\"row\">\n    <svg id=\"Divider-Bottom\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\">\n        <polygon points=\"100,0 100,100 0,0\" />\n    </svg>\n</div>\n\n<section class=\"row pb-5\">\n    <div class=\"container featurette\">\n        <h2 class=\"featurette-heading\">Consulting</h2>\n        <p>Got a web project that's grown and just need a little extra help, or just can't figure out an issue on your website? DevFecta, LLC can help! Our experienced team can sit down and meet with you to find the best solution to help you with your web project.</p>\n        <p style=\"display: none;\"><a class=\"btn btn-lg btn-primary rollover-fade\" href=\"Consulting.aspx\" role=\"button\">More Info &raquo;</a></p>\n    </div>\n</section>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html": 
@@ -350,7 +361,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("#Divider-Top {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Top > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n#Divider-Bottom {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Bottom > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n@media screen and (max-width: 750px) {\n    #Divider-Top, #Divider-Bottom {\n        display:none;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsWUFBWTtJQUNaLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QixZQUFZO0lBQ1osbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0k7UUFDSSxZQUFZO0lBQ2hCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNEaXZpZGVyLVRvcCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbn1cblxuI0RpdmlkZXItVG9wID4gcG9seWdvbiB7XG4gICAgZmlsbDogcmdiYSgwLCA0OSwgODMsIDEpO1xuICAgIHN0cm9rZTogbm9uZTtcbiAgICBzdHJva2Utd2lkdGg6IHVuc2V0O1xufVxuXG4jRGl2aWRlci1Cb3R0b20ge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbiNEaXZpZGVyLUJvdHRvbSA+IHBvbHlnb24ge1xuICAgIGZpbGw6IHJnYmEoMCwgNDksIDgzLCAxKTtcbiAgICBzdHJva2U6IG5vbmU7XG4gICAgc3Ryb2tlLXdpZHRoOiB1bnNldDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzUwcHgpIHtcbiAgICAjRGl2aWRlci1Ub3AsICNEaXZpZGVyLUJvdHRvbSB7XG4gICAgICAgIGRpc3BsYXk6bm9uZTtcbiAgICB9XG59Il19 */");
+            /* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
             /***/ 
         }),
         /***/ "./src/app/app.component.ts": 
@@ -390,27 +401,94 @@
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function () { return AppModule; });
             /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
             /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-            /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-            /* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+            /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+            /* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+            /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+            var appRoutes = [
+                { path: 'resume', component: _resume_resume_component__WEBPACK_IMPORTED_MODULE_5__["ResumeComponent"], data: { title: 'Resume' } }
+                //, { path: 'hero/:id',      component: HeroDetailComponent },
+                /*
+                , {
+                    path: '',
+                    component: HomeComponent,
+                    data: { title: 'DevFacta' }
+                }
+                */
+                ,
+                {
+                    path: '',
+                    component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"]
+                }
+                /*
+                , { path: '/',
+                    redirectTo: '/home',
+                    pathMatch: 'full'
+                }
+                */
+                //, { path: '**', component: PageNotFoundComponent }
+            ];
             var AppModule = /** @class */ (function () {
                 function AppModule() {
                 }
                 return AppModule;
             }());
             AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-                Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
                     declarations: [
-                        _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                        _resume_resume_component__WEBPACK_IMPORTED_MODULE_4__["ResumeComponent"]
+                        _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                        _resume_resume_component__WEBPACK_IMPORTED_MODULE_5__["ResumeComponent"],
+                        _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"]
                     ],
                     imports: [
-                        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]
+                        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                        _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes, { enableTracing: true } // <-- debugging purposes only
+                        )
                     ],
                     providers: [],
-                    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+                    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
+                    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
                 })
             ], AppModule);
+            /***/ 
+        }),
+        /***/ "./src/app/home/home.component.css": 
+        /*!*****************************************!*\
+          !*** ./src/app/home/home.component.css ***!
+          \*****************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = ("#Divider-Top {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Top > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n#Divider-Bottom {\n    width: 100%;\n    height: 100px;\n    display: block;\n}\n\n#Divider-Bottom > polygon {\n    fill: rgba(0, 49, 83, 1);\n    stroke: none;\n    stroke-width: unset;\n}\n\n@media screen and (max-width: 750px) {\n    #Divider-Top, #Divider-Bottom {\n        display:none;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsWUFBWTtJQUNaLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsY0FBYztBQUNsQjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QixZQUFZO0lBQ1osbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0k7UUFDSSxZQUFZO0lBQ2hCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNEaXZpZGVyLVRvcCB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbn1cblxuI0RpdmlkZXItVG9wID4gcG9seWdvbiB7XG4gICAgZmlsbDogcmdiYSgwLCA0OSwgODMsIDEpO1xuICAgIHN0cm9rZTogbm9uZTtcbiAgICBzdHJva2Utd2lkdGg6IHVuc2V0O1xufVxuXG4jRGl2aWRlci1Cb3R0b20ge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbiNEaXZpZGVyLUJvdHRvbSA+IHBvbHlnb24ge1xuICAgIGZpbGw6IHJnYmEoMCwgNDksIDgzLCAxKTtcbiAgICBzdHJva2U6IG5vbmU7XG4gICAgc3Ryb2tlLXdpZHRoOiB1bnNldDtcbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzUwcHgpIHtcbiAgICAjRGl2aWRlci1Ub3AsICNEaXZpZGVyLUJvdHRvbSB7XG4gICAgICAgIGRpc3BsYXk6bm9uZTtcbiAgICB9XG59Il19 */");
+            /***/ 
+        }),
+        /***/ "./src/app/home/home.component.ts": 
+        /*!****************************************!*\
+          !*** ./src/app/home/home.component.ts ***!
+          \****************************************/
+        /*! exports provided: HomeComponent */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function () { return HomeComponent; });
+            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            var HomeComponent = /** @class */ (function () {
+                function HomeComponent() {
+                }
+                HomeComponent.prototype.ngOnInit = function () {
+                };
+                return HomeComponent;
+            }());
+            HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+                    selector: 'app-home',
+                    template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")).default]
+                })
+            ], HomeComponent);
             /***/ 
         }),
         /***/ "./src/app/resume/resume.component.css": 
