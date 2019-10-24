@@ -414,9 +414,9 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/d/GitHub/DevFecta/website/dev/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-__webpack_require__(/*! /mnt/d/GitHub/DevFecta/website/dev/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
-module.exports = __webpack_require__(/*! /mnt/d/GitHub/DevFecta/website/dev/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /mnt/d/GitHub/Devfecta/website/dev/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! /mnt/d/GitHub/Devfecta/website/dev/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+module.exports = __webpack_require__(/*! /mnt/d/GitHub/Devfecta/website/dev/src/styles.css */"./src/styles.css");
 
 
 /***/ })

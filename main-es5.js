@@ -581,7 +581,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! /mnt/d/GitHub/DevFecta/website/dev/src/main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! /mnt/d/GitHub/Devfecta/website/dev/src/main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);
