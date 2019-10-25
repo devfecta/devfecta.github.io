@@ -443,7 +443,7 @@
                     ],
                     imports: [
                         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                        _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes, { enableTracing: true } // <-- debugging purposes only
+                        _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes, { useHash: true, enableTracing: true } // <-- debugging purposes only
                         )
                     ],
                     providers: [],
@@ -581,7 +581,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! /mnt/d/GitHub/Devfecta/website/dev/src/main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! /mnt/d/GitHub/DevFecta/website/dev/src/main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);
