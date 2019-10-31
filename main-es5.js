@@ -50,7 +50,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Work Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Web Developer</h5>\n                    <p class=\"card-text\">January 2014 – Present  It’s Advertising, LLC, Stoughton, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            It’s Advertising, LLC is a side project of mine, and I address any technical questions and \n                            issues for the company. Also, I developed the AdHound ad tracking web application \n                            which is written in PHP and MySQL\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Freelance Graphic Designer & Web Developer</h5>\n                    <p class=\"card-text\">March 2008 – Present  Fitchburg, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Designed and developed websites using an array of languages such as \n                            PHP, ASP.Net, CSS, HTML, and JavaScript\n                        </li>\n                        <li class=\"list-group-item\">\n                            Create logos and various graphics for clients\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Graphic Designer</h5>\n                    <p class=\"card-text\">September 2003 – March 2008  WTS Paradigm, Middleton, WI</p>\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Responsible for designing all advertising and promotional materials,  \n                            including: package design, magazine ads, trade show materials such as booth graphics, \n                            and web design                            \n                        </li>\n                        <li class=\"list-group-item\">\n                            Developed the WTS Paradigm website using Fireworks and Dreamweaver,  \n                            then imported the HTML code and CSS information into Visual Studio to produce \n                            ASP.Net files that are tied to a SQL database for displaying product information\n                        </li>\n                        <li class=\"list-group-item\">\n                            Software development experiences include writing product knowledge code in \n                            Visual Basic and C# .Net that the WTS Paradigm software uses to produce exact \n                            product quotes for WTS Paradigm clients                           \n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">Web Designer</h5>\n                        <p class=\"card-text\">September 1999 - September 2003  Nasco, Fort Atkinson, WI</p>\n                        <ul class=\"list-group list-group-flush\">\n                            <li class=\"list-group-item\">\n                                Designed concepts for Nasco's e-commerce website using Fireworks, and then \n                                exported the approved layout to HTML code to create templates and apply CSS\n                                information in Dreamweaver and BBEdit\n                            </li>\n                            <li class=\"list-group-item\">\n                                Worked with development team to implement web layouts for company website\n                            </li>\n                            <li class=\"list-group-item\">\n                                Trained new employees on the development process at Nasco\n                            </li>\n                        </ul>\n                    </div>\n            </div>\n        </div>\n    </div>\n</section>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Work Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div *ngFor=\"let job of jobs\" class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">{{ job.jobTitle }}</h5>\n                    <p class=\"card-text\">{{ job.startDate }} – {{ job.endDate }}  <strong><em>{{ job.companyName }}</em></strong>, {{ job.city }}</p>\n                    <p class=\"card-text\" style=\"font-size: 90%;\">{{ job.description }}</p>\n                    <h6>Technologies Used</h6>\n                    <ul class=\"list-group list-group-flush\" style=\"font-size: 80%;\">\n                        <li *ngFor=\"let technology of job.technologiesUsed\" class=\"list-group-item\">\n                            {{ technologies[technology] }}\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Education</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Web Software Developer Associate Degree</h5>\n                    <p class=\"card-text\">January 2018 - December 2020  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Graphic Design Associate Degree</h5>\n                    <p class=\"card-text\">September 1995 - May 1999  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Supplemental Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Paid-On-Call Firefighter for the City of Fitchburg\n                        </li>\n                        <li class=\"list-group-item\">\n                            Member of the Fitchburg Fire Department Honor Guard\n                        </li>\n                        <li class=\"list-group-item\">\n                            Advisor for Explorer Post 2119\n                        </li>\n                    </ul> \n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
             /***/ 
         }),
         /***/ "./node_modules/tslib/tslib.es6.js": 
@@ -443,7 +443,7 @@
                     ],
                     imports: [
                         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                        _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes, { useHash: true, enableTracing: true } // <-- debugging purposes only
+                        _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes, { useHash: true, enableTracing: false } // <-- debugging purposes only
                         )
                     ],
                     providers: [],
@@ -491,6 +491,79 @@
             ], HomeComponent);
             /***/ 
         }),
+        /***/ "./src/app/resume-data.service.ts": 
+        /*!****************************************!*\
+          !*** ./src/app/resume-data.service.ts ***!
+          \****************************************/
+        /*! exports provided: ResumeDataService */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeDataService", function () { return ResumeDataService; });
+            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            var ResumeDataService = /** @class */ (function () {
+                function ResumeDataService() {
+                    this.data = {
+                        technologies: {
+                            php5: 'PHP 5.x (Procedural) (Provided by website service and self-configured)',
+                            php7: 'PHP 7.x (Procedural & PDO) (Provided by website service and self-configured)',
+                            linux: 'Linux (usually Ubuntu 18.04.x & 19.04.x) (Provided by website service and self-configured)',
+                            apache: 'Apache 2 (Provided by website service and self-configured)',
+                            mysql: 'MySQL 5.x (Provided by website service and self-configured)',
+                            css: 'CSS/Bootstrap',
+                            html: 'HTML',
+                            angular: 'Angular',
+                            jquery: 'jQuery',
+                            javascript: 'JavaScript',
+                            git: 'Git',
+                            api: 'API (REST and Web Services)',
+                            mvc: 'MVC',
+                            asp: 'ASP.Net',
+                            iis: 'IIS (Self-configured)',
+                            wordpress: 'WordPress',
+                            office: 'Adobe’s & Microsoft’s Line of Products'
+                        },
+                        jobs: [
+                            {
+                                companyName: "DevFecta",
+                                jobTitle: 'Web Developer',
+                                city: 'Fitchburg, WI',
+                                description: 'Design and develop websites using an array of technologies, languages, and frameworks, along with providing graphic design services.',
+                                technologiesUsed: ['linux', 'php5', 'php7', 'apache', 'mysql', 'jquery', 'javascript', 'css', 'html', 'git', 'api', 'mvc', 'wordpress', 'office'],
+                                startDate: 'March 2008',
+                                endDate: 'Present'
+                            },
+                            {
+                                companyName: "Paradigm",
+                                jobTitle: 'Graphic Designer',
+                                city: 'Middleton, WI',
+                                description: 'Designed all advertising and promotional materials, developed and maintained the company’s website, and assisted with development of product knowledge code.',
+                                technologiesUsed: ['css', 'html', 'jquery', 'javascript', 'asp', 'iis', 'office'],
+                                startDate: 'September 2003',
+                                endDate: 'March 2008'
+                            },
+                            {
+                                companyName: "Nasco",
+                                jobTitle: 'Web Designer',
+                                city: 'Fort Atkinson, WI',
+                                description: 'Designed concepts for Nasco’s e-commerce website, worked with development team to implement webpage layouts, and trained new members of the web team on the development process.',
+                                technologiesUsed: ['css', 'html', 'javascript', 'office'],
+                                startDate: 'September 1999',
+                                endDate: 'September 2003'
+                            }
+                        ]
+                    };
+                }
+                return ResumeDataService;
+            }());
+            ResumeDataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+                    providedIn: 'root'
+                })
+            ], ResumeDataService);
+            /***/ 
+        }),
         /***/ "./src/app/resume/resume.component.css": 
         /*!*********************************************!*\
           !*** ./src/app/resume/resume.component.css ***!
@@ -513,13 +586,19 @@
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function () { return ResumeComponent; });
             /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
             /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            /* harmony import */ var _resume_data_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../resume-data.service */ "./src/app/resume-data.service.ts");
             var ResumeComponent = /** @class */ (function () {
-                function ResumeComponent() {
+                function ResumeComponent(resumeData) {
+                    this.resumeData = resumeData;
+                    this.jobs = this.resumeData.data['jobs'];
+                    this.technologies = this.resumeData.data['technologies'];
                 }
-                ResumeComponent.prototype.ngOnInit = function () {
-                };
+                ResumeComponent.prototype.ngOnInit = function () { };
                 return ResumeComponent;
             }());
+            ResumeComponent.ctorParameters = function () { return [
+                { type: _resume_data_service__WEBPACK_IMPORTED_MODULE_2__["ResumeDataService"] }
+            ]; };
             ResumeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
                 Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
                     selector: 'app-resume',
