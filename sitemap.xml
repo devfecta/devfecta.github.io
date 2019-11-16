@@ -14,7 +14,7 @@
 		<loc>http://devfecta.com/#/resume</loc>
 		<lastmod>2019-11-16</lastmod>
 	</url>
-
+<!--
 	<url>
 		<loc>https://github.com/devfecta/devfecta.github.io/wiki/Amazon-Web-Services</loc>
 		<lastmod>2019-11-16</lastmod>
@@ -103,5 +103,5 @@
 		<loc>https://github.com/devfecta/devfecta.github.io/wiki/Adobe</loc>
 		<lastmod>2019-11-16</lastmod>
 	</url>
-
+-->
 </urlset>
