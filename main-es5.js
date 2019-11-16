@@ -50,7 +50,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Work Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div *ngFor=\"let job of jobs\" class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">{{ job.jobTitle }}</h5>\n                    <p class=\"card-text\">{{ job.startDate }} – {{ job.endDate }}  <strong><em>{{ job.companyName }}</em></strong>, {{ job.city }}</p>\n                    <p class=\"card-text\" style=\"font-size: 90%;\">{{ job.description }}</p>\n                    <div class=\"row\">\n                        <div class=\"col-md\">\n                            <h6>Technologies Used</h6>\n                            <ul class=\"list-group list-group-flush\" style=\"font-size: 80%;\">\n                                <li *ngFor=\"let technology of job.technologiesUsed\" class=\"list-group-item\">\n                                    {{ technologies[technology] }}\n                                </li>\n                            </ul>                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Education</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Web Software Developer Associate Degree</h5>\n                    <p class=\"card-text\">January 2018 - December 2019  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Graphic Design Associate Degree</h5>\n                    <p class=\"card-text\">September 1995 - May 1999  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Supplemental Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md border-0\">\n                <div class=\"card-body\">\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Paid-On-Call Firefighter for the City of Fitchburg\n                        </li>\n                        <li class=\"list-group-item\">\n                            Member of the Fitchburg Fire Department Honor Guard\n                        </li>\n                        <li class=\"list-group-item\">\n                            Advisor for Explorer Post 2119\n                        </li>\n                    </ul> \n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Clients</h2>\n        </div>\n        <div class=\"card-body\">\n            <div class=\"card-text row p-3\">\n                <div class=\"col-md-6 p-2\" *ngFor=\"let client of clients\">\n                        {{ client.name }}\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>");
+            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Work Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div *ngFor=\"let job of jobs\" class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">{{ job.jobTitle }}</h5>\n                    <p class=\"card-text\">{{ job.startDate }} – {{ job.endDate }}  <strong><em>{{ job.companyName }}</em></strong>, {{ job.city }}</p>\n                    <p class=\"card-text\" style=\"font-size: 90%;\">{{ job.description }}</p>\n                    <div class=\"row\">\n                        <div class=\"col-md\">\n                            <h6>Technologies Used</h6>\n                            <ul class=\"list-inline row justify-content-between\" style=\"font-size: 80%;\">\n                                <li *ngFor=\"let technology of job.technologiesUsed\" class=\"list-inline-item col-md-5 m-1\">\n                                    <a [attr.href]=\"technologies[technology].wiki\">{{ technologies[technology].description }}</a>\n                                </li>\n                            </ul>                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Education</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Web Software Developer Associate Degree</h5>\n                    <p class=\"card-text\">January 2018 - December 2019  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n            <div class=\"card col-md-6 col-sm-12 border-0\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Graphic Design Associate Degree</h5>\n                    <p class=\"card-text\">September 1995 - May 1999  <strong><em>Madison College</em></strong>, Madison, WI</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Supplemental Experience</h2>\n        </div>\n        <div class=\"card-body d-flex flex-wrap\">\n            <div class=\"card col-md border-0\">\n                <div class=\"card-body\">\n                    <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item\">\n                            Paid-On-Call Firefighter for the City of Fitchburg\n                        </li>\n                        <li class=\"list-group-item\">\n                            Member of the Fitchburg Fire Department Honor Guard\n                        </li>\n                        <li class=\"list-group-item\">\n                            Advisor for Explorer Post 2119\n                        </li>\n                    </ul> \n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n\n<section class=\"pt-3\">\n    <div class=\"card\">\n        <div class=\"card-header\">\n            <h2>Clients</h2>\n        </div>\n        <div class=\"card-body\">\n            <div class=\"card-text row p-3\">\n                <div class=\"col-md-6 p-2\" *ngFor=\"let client of clients\">\n                        {{ client.name }}\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>");
             /***/ 
         }),
         /***/ "./node_modules/tslib/tslib.es6.js": 
@@ -506,23 +506,28 @@
                 function ResumeDataService() {
                     this.data = {
                         technologies: {
-                            php5: 'PHP 5.x (Procedural) (Provided by website service and self-configured)',
-                            php7: 'PHP 7.x (Procedural & PDO) (Provided by website service and self-configured)',
-                            linux: 'Linux (usually Ubuntu 18.04.x & 19.04.x) (Provided by website service and self-configured)',
-                            apache: 'Apache 2 (Provided by website service and self-configured)',
-                            mysql: 'MySQL 5.x (Provided by website service and self-configured)',
-                            css: 'CSS/Bootstrap',
-                            html: 'HTML',
-                            angular: 'Angular',
-                            jquery: 'jQuery',
-                            javascript: 'JavaScript',
-                            git: 'Git',
-                            api: 'API (REST and Web Services)',
-                            mvc: 'MVC',
-                            asp: 'ASP.Net',
-                            iis: 'IIS (Self-configured)',
-                            wordpress: 'WordPress',
-                            office: 'Adobe’s & Microsoft’s Line of Products'
+                            aws: { description: 'Amazon Web Services', wiki: '/devfecta/devfecta.github.io/wiki/Amazon-Web-Services' },
+                            php5: { description: 'PHP 5.x (Procedural) (Provided by website service and self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/PHP' },
+                            php7: { description: 'PHP 7.x (Procedural & PDO) (Provided by website service and self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/PHP' },
+                            linux: { description: 'Linux (usually Ubuntu 18.04.x & 19.04.x) (Provided by website service and self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/Linux' },
+                            apache: { description: 'Apache 2 (Provided by website service and self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/Apache' },
+                            mysql: { description: 'MySQL 5.x (Provided by website service and self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/MySQL' },
+                            css: { description: 'CSS/Bootstrap', wiki: '/devfecta/devfecta.github.io/wiki/CSS' },
+                            html: { description: 'HTML', wiki: '/devfecta/devfecta.github.io/wiki/HTML' },
+                            angular: { description: 'Angular', wiki: '/devfecta/devfecta.github.io/wiki/Angular' },
+                            jquery: { description: 'jQuery', wiki: '/devfecta/devfecta.github.io/wiki/jQuery' },
+                            javascript: { description: 'JavaScript', wiki: '/devfecta/devfecta.github.io/wiki/JavaScript' },
+                            git: { description: 'Git', wiki: '/devfecta/devfecta.github.io/wiki/Git' },
+                            api: { description: 'API and Web Services', wiki: '/devfecta/devfecta.github.io/wiki/API-and-Web-Services' },
+                            mvc: { description: 'MVC (Model View Controller)', wiki: '/devfecta/devfecta.github.io/wiki/MVC' },
+                            asp: { description: 'ASP.Net', wiki: '/devfecta/devfecta.github.io/wiki/ASP.Net' },
+                            iis: { description: 'IIS (Self-configured)', wiki: '/devfecta/devfecta.github.io/wiki/IIS' },
+                            wordpress: { description: 'WordPress', wiki: '/devfecta/devfecta.github.io/wiki/WordPress' },
+                            npm: { description: 'NPM', wiki: '/devfecta/devfecta.github.io/wiki/NPM' },
+                            postman: { description: 'Adobe\'s Line of Products', wiki: '/devfecta/devfecta.github.io/wiki/Postman' },
+                            react: { description: 'React', wiki: '/devfecta/devfecta.github.io/wiki/React' },
+                            typescript: { description: 'TypeScript', wiki: '/devfecta/devfecta.github.io/wiki/TypeScript' },
+                            adobe: { description: 'Adobe\'s Line of Products', wiki: '' }
                         },
                         jobs: [
                             {
@@ -530,7 +535,7 @@
                                 jobTitle: 'Web Developer',
                                 city: 'Fitchburg, WI',
                                 description: 'Design and develop websites using an array of technologies, languages, and frameworks, along with providing graphic design services.',
-                                technologiesUsed: ['linux', 'php5', 'php7', 'apache', 'mysql', 'jquery', 'javascript', 'css', 'html', 'git', 'api', 'mvc', 'wordpress', 'office'],
+                                technologiesUsed: ['linux', 'php5', 'php7', 'apache', 'mysql', 'angular', 'react', 'jquery', 'javascript', 'typescript', 'css', 'html', 'git', 'api', 'mvc', 'wordpress', 'npm', 'postman'],
                                 startDate: 'March 2008',
                                 endDate: 'Present'
                             },
@@ -539,7 +544,7 @@
                                 jobTitle: 'Graphic Designer',
                                 city: 'Middleton, WI',
                                 description: 'Designed all advertising and promotional materials, developed and maintained the company’s website, and assisted with development of product knowledge code.',
-                                technologiesUsed: ['css', 'html', 'jquery', 'javascript', 'asp', 'iis', 'office'],
+                                technologiesUsed: ['css', 'html', 'jquery', 'javascript', 'asp', 'iis', 'adobe'],
                                 startDate: 'September 2003',
                                 endDate: 'March 2008'
                             },
@@ -548,7 +553,7 @@
                                 jobTitle: 'Web Designer',
                                 city: 'Fort Atkinson, WI',
                                 description: 'Designed concepts for Nasco’s e-commerce website, worked with development team to implement webpage layouts, and trained new members of the web team on the development process.',
-                                technologiesUsed: ['css', 'html', 'javascript', 'office'],
+                                technologiesUsed: ['css', 'html', 'javascript', 'adobe'],
                                 startDate: 'September 1999',
                                 endDate: 'September 2003'
                             }
