@@ -7,8 +7,12 @@
 
 
 	<url>
-	<loc>http://devfecta.com/</loc>
-	<lastmod>2019-11-16</lastmod>
+		<loc>http://devfecta.com/</loc>
+		<lastmod>2019-11-16</lastmod>
+	</url>
+	<url>
+		<loc>http://devfecta.com/#/resume</loc>
+		<lastmod>2019-11-16</lastmod>
 	</url>
 
 	<url>
