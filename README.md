@@ -1,3 +1,2 @@
-# DevFecta Code samples
-## Work In Progress
-In the meantime check out the Wiki section.
+# DevFecta's Live Website
+Check out the Wiki tab for continued documentation.
