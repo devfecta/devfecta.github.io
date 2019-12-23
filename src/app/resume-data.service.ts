@@ -67,7 +67,7 @@ export class ResumeDataService {
             {name: 'Alt\'s Operation'}
             , {name: 'Be Dynamic Training'}
             , {name: 'Firefighter Dynamic Performance Training'}
-            , {name: 'First, Responde Well'}
+            , {name: 'First, Respond Well'}
             , {name: 'Fitchburg Fire & Rescue Association'}
             , {name: 'It\'s Advertising'}
             , {name: 'Kinergetics'}

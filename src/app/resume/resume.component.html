@@ -11,7 +11,7 @@
                     <p class="card-text" style="font-size: 90%;">{{ job.description }}</p>
                     <div class="row">
                         <div class="col-md">
-                            <h6>Technologies Used</h6>
+                            <h6>Technologies Used <span class="badge badge-devfecta">{{ job.technologiesUsed.length }}</span></h6>
                             <ul class="list-inline row justify-content-between" style="font-size: 80%;">
                                 <li *ngFor="let technology of job.technologiesUsed" class="list-inline-item col-md-5 m-1">
                                     <a [attr.href]="technologies[technology].wiki">{{ technologies[technology].description }}</a>
