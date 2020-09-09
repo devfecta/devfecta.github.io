@@ -1,47 +1,52 @@
 import React, { Component }  from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
 import Services from './components/Services';
+import Resume from './components/Resume'
 import Footer from './components/Footer';
 
 import './css/App.css';
 
-
-
 class App extends Component {
+
+	constructor() {
+		super();
+		this.state = {
+			workExperience : []
+		};
+	}
+
+	componentDidMount() {
+
+
+        fetch('./resumeData.json')
+        .then(response => response.json())
+        .then(result => {
+
+			const experiences = result.map(experience => experience);
+			
+			this.setState({
+					workExperience : experiences
+				}
+			)
+			
+		});
+		
+		
+	}
+	
 	render() {
 
 		return (
-			<div>
+			<Router>
 				<Header />
-
-				<main>
-
-					<section id="serviceSection">
-						<div id="serviceImage" className="w-100"></div>
-						
-						<div id="serviceIntro" className="container text-light d-flex align-items-center">
-								<p>DevFecta is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
-									website design, web development, and graphic design services. In addition, I also offer consulting services for 
-									when you just need a little help with a current web project.</p>
-						</div>
-
-						<Services />
-					</section>
-
-					<section id="portfolioSection">
-						<div className="container d-flex justify-content-center">
-							<button className="btn btn-primary">View My Resume</button>
-						</div>
-					</section>
-
-					
-
-				</main>
-
-
+					<Switch>
+						<Route exact path="/" component={Services} />
+						<Route path="/resume" resumeData={this.state.workExperience} component={Resume} />
+					</Switch>
 				<Footer />
-			</div>
+			</Router>
 		);
 	}
 }
