@@ -8,7 +8,7 @@ class Resume extends Component {
             marginTop: "-5em"
         }
 
-        console.log(this.props.resumeData);
+        console.log(this.props.resumeData.technologies);
 
         return (
             <main>

@@ -1,4 +1,4 @@
-[
+
 {
     "technologies" : {
         "aws" : { "description" : "Amazon Web Services", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Amazon-Web-Services" },
@@ -71,4 +71,4 @@
         , {"name": "Townedge"}
         , {"name": "Wisconsin State Fire Inspectors Association"}
     ]
-}]
+}

@@ -24,10 +24,10 @@ class App extends Component {
         .then(response => response.json())
         .then(result => {
 
-			const experiences = result.map(experience => experience);
+			//const experiences = result.map(experience => experience);
 			
 			this.setState({
-					workExperience : experiences
+					workExperience : result
 				}
 			)
 			
@@ -43,7 +43,7 @@ class App extends Component {
 				<Header />
 					<Switch>
 						<Route exact path="/" component={Services} />
-						<Route path="/resume" resumeData={this.state.workExperience} component={Resume} />
+						<Route path="/resume" render={(props) => <Resume resumeData={this.state.workExperience} />} />
 					</Switch>
 				<Footer />
 			</Router>

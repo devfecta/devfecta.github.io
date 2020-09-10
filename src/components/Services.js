@@ -49,9 +49,9 @@ class Services extends Component {
                     </div>
                 </section>
 
-                <section id="portfolioSection">
+                <section id="portfolioSection" className="container-fluid">
                     <div className="container d-flex justify-content-center">
-                        <button className="btn btn-primary">View My Resume</button>
+                        <a href="/resume" className="btn btn-primary">View My Resume</a>
                     </div>
                 </section>
             </main>
