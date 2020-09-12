@@ -7,16 +7,18 @@ class Services extends Component {
     render() {
 
         const servicesStyle = {
-            marginTop: "-5em"
+           
         }
 
         return (
-            <main>
-                <section id="serviceSection">
-                    <div id="serviceImage" className="w-100"></div>
+
+            <section>
+                <div id="serviceImage" className="w-100"></div>
+                <article id="serviceArticle">
                     
-                    <div id="serviceIntro" className="container text-light d-flex align-items-center">
-                            <p>DevFecta is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
+                    
+                    <div id="serviceIntro" className="row text-light d-flex align-items-center">
+                            <p className="container">DevFecta is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
                                 website design, web development, and graphic design services. In addition, I also offer consulting services for 
                                 when you just need a little help with a current web project.</p>
                     </div>
@@ -47,14 +49,12 @@ class Services extends Component {
                                     your web project.</>} />
                         </div>
                     </div>
-                </section>
+                </article>
 
-                <section id="portfolioSection" className="container-fluid">
-                    <div className="container d-flex justify-content-center">
-                        <a href="/resume" className="btn btn-primary">View My Resume</a>
-                    </div>
-                </section>
-            </main>
+                <article id="portfolioArticle" className="row d-flex justify-content-center">
+                    <a href="/resume" className="btn btn-primary">View My Resume</a>
+                </article>
+            </section>
         );
     }
 }

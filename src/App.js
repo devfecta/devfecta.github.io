@@ -11,40 +11,35 @@ import './css/App.css';
 class App extends Component {
 
 	constructor() {
-		super();
-		this.state = {
+        super();
+        this.state = {
 			workExperience : []
 		};
-	}
+    }
 
 	componentDidMount() {
-
-
-        fetch('./resumeData.json')
-        .then(response => response.json())
-        .then(result => {
-
+		fetch('./resumeData.json')
+		.then(response => response.json())
+		.then(result => {
 			//const experiences = result.map(experience => experience);
-			
 			this.setState({
 					workExperience : result
 				}
 			)
-			
 		});
-		
-		
 	}
-	
-	render() {
 
+	render() {
 		return (
+
 			<Router>
 				<Header />
-					<Switch>
-						<Route exact path="/" component={Services} />
-						<Route path="/resume" render={(props) => <Resume resumeData={this.state.workExperience} />} />
-					</Switch>
+					<main>
+						<Switch>
+							<Route exact path="/" component={Services} />
+							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
+						</Switch>
+					</main>
 				<Footer />
 			</Router>
 		);

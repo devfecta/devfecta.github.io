@@ -8,15 +8,20 @@
 	box-shadow: #000 0 3px 5px;
 }
 
-#serviceSection {
+main {
+	padding-top: 5em;
 	background-color: #003153;
+}
+
+#serviceArticle {
 	padding-bottom: 1em;
+	clear: both;
 } 
 
 
 #serviceImage {
 	height: 500px;
-	background-color: #ff0000;
+	background-color: #000;
 	background-image: url("/images/web-development.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -29,20 +34,20 @@
 }
 
 #serviceIntro {
-	height:500px;
-	z-index: 1;
 	position: relative;
 	font-size: 150%;
+	height: 300px;
 }
 #serviceIntro p {
 	text-shadow: #000 2px 2px 3px;
 }
 
-#portfolioSection {
+#portfolioArticle {
 	background-color: #666;
 	padding: 2em 0;
 	min-height: 50px;
 	box-shadow: #222 0 -3px 5px;
+	
 } 
 
 .btn-primary {
