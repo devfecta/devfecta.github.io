@@ -6,10 +6,6 @@ class Services extends Component {
 
     render() {
 
-        const servicesStyle = {
-           
-        }
-
         return (
 
             <section>
@@ -23,7 +19,7 @@ class Services extends Component {
                                 when you just need a little help with a current web project.</p>
                     </div>
 
-                    <div style={servicesStyle} className="row d-flex justify-content-center">
+                    <div className="row d-flex justify-content-center">
                         <div className="col-md-3 d-flex align-items-stretch">
                             <Service 
                                 title="Development" 
