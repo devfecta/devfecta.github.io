@@ -1,1 +1,0 @@
-This section is just a quick portfolio of some graphic design work I've done over the past couple years. There isn't much because I've been in school learning more about back-end development.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/images/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		
+		<meta name="description" content="DevFecta is a Madison, Wisconsin based company that offers professional website design, web development, graphic design, and consulting services." />
+		
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		
+		<title>DevFecta - Development | Design | Consulting</title>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="bodyTag"></div>
+
+		<script>
+			// When the user scrolls down 50px from the top of the document, resize the header's font size
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+				if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+					document.getElementsByClassName("headerLogo")[1].style.height = "30px";
+				} else {
+					document.getElementsByClassName("headerLogo")[1].style.height = "50px";
+				}
+			}
+			</script>
+	</body>
+</html>
