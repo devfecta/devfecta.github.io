@@ -6,7 +6,7 @@ class Footer extends Component {
 
         return (
             <footer className="text-light text-center">
-                <span>&copy; DevFecta</span>
+                <span className="container">&copy; DevFecta</span>
             </footer>
         );
     }

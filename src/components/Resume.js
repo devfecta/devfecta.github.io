@@ -8,13 +8,19 @@ const Resume = props => {
     let clients = "";
 
     const techStyle = {
-        "font-size": "80%"
+        fontSize: "80%"
     }
     
     if (props.resumeData.jobs) {
-        console.log('test');
-        console.log(props.resumeData.jobs);
+
+        console.log(props.resumeData.jobs.sort());
+        // let test = [...props.resumeData.jobs].sort((jobOne, jobTwo) => (jobOne.companyName[1] > jobTwo.companyName[1]) || (jobOne.companyName[1] === jobTwo.companyName[1] ? -1 : 0) );
+
         workExperience = props.resumeData.jobs.map( (job, index) => {
+
+           // let test = [...job.technologiesUsed].sort((jobOne, jobTwo) => jobOne[index] > jobTwo[index] ? 1 : -1);
+           // console.log(test);
+
             return (
                 
                 <div key={index} className="card col-md-6 col-sm-12 border-0">
@@ -27,6 +33,8 @@ const Resume = props => {
                                 <h6>Technologies Used <span className="badge badge-devfecta">{job.technologiesUsed.length}</span></h6>
                                 <ul className="list-inline row justify-content-between" style={techStyle}>
                                     {
+                                        
+
                                         job.technologiesUsed.map( (technology, index) => {
                                             return (
                                                 <li key={index} className="list-inline-item col-md-5 m-1">
@@ -55,7 +63,7 @@ const Resume = props => {
 
     return(
 
-        <section className="pb-2">
+        <section className="container-fluid pb-2">
             <article id="resumeArticle" className="container my-1">
                 <div className="card">
                     <div className="card-header">

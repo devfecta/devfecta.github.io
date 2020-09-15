@@ -13,11 +13,11 @@ main {
 	background-color: #003153;
 }
 
-#serviceArticle {
-	padding-bottom: 1em;
-	clear: both;
-} 
 
+#serviceArticle {
+
+
+} 
 
 #serviceImage {
 	height: 500px;
@@ -27,16 +27,20 @@ main {
 	background-repeat: no-repeat;
 	opacity: 0.4;
 	z-index: 0;
-	position: absolute;
+	position: fixed;
 	top: 0;
+	left: 0;
+	padding: 0;
 	box-shadow: #000 0px 3px 5px;
 	
 }
 
 #serviceIntro {
 	position: relative;
-	font-size: 150%;
-	height: 300px;
+	font-size: 1.5em;
+	min-height: 300px;
+	height: auto;
+	padding: 2em 0 -2em 0;
 }
 #serviceIntro p {
 	text-shadow: #000 2px 2px 3px;
@@ -47,7 +51,7 @@ main {
 	padding: 2em 0;
 	min-height: 50px;
 	box-shadow: #222 0 -3px 5px;
-	
+
 } 
 
 .btn-primary {

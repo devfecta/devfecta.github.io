@@ -6,9 +6,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  width: 100%;
 }
 
 .badge-devfecta {
   color: #fff;
   background-color: #003153;
+}
+
+header, main, footer {
+  margin: 0;
 }
