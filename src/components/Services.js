@@ -7,13 +7,11 @@ class Services extends Component {
     render() {
 
         return (
-
-            <section>
+            <div>
+            <section className="container-fluid">
                 <div id="serviceImage" className="w-100"></div>
                 <article id="serviceArticle">
-                    
-                    
-                    <div id="serviceIntro" className="row text-light d-flex align-items-center">
+                    <div id="serviceIntro" className="px-3 text-light d-flex align-items-center">
                             <p className="container">DevFecta is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
                                 website design, web development, and graphic design services. In addition, I also offer consulting services for 
                                 when you just need a little help with a current web project.</p>
@@ -47,10 +45,14 @@ class Services extends Component {
                     </div>
                 </article>
 
-                <article id="portfolioArticle" className="row d-flex justify-content-center">
+                
+            </section>
+            <section>
+                <article id="portfolioArticle" className="d-flex justify-content-center">
                     <a href="/resume" className="btn btn-primary">View My Resume</a>
                 </article>
             </section>
+            </div>
         );
     }
 }
