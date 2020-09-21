@@ -25,7 +25,7 @@
         , "npm" : { "description" : "NPM", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/NPM" }
         , "php5" : { "description" : "PHP 5.x (Procedural) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/PHP" }
         , "php7" : { "description" : "PHP 7.x (Procedural & PDO) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/PHP" }
-        , "postman" : { "description" : "Adobe's Line of Products", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Postman" }
+        , "postman" : { "description" : "Postman", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Postman" }
         , "react" : { "description" : "React", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/React" }
         , "ssh" : { "description" : "SSH", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/SSH" }
         , "typescript" : { "description" : "TypeScript", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/TypeScript" }
@@ -63,19 +63,19 @@
     ],
 
     "clients" : [
-        {"name": "Alt's Operation"}
-        , {"name": "Be Dynamic Training"}
-        , {"name": "Firefighter Dynamic Performance Training"}
-        , {"name": "First, Respond Well"}
-        , {"name": "Fitchburg Fire & Rescue Association"}
-        , {"name": "It's Advertising"}
-        , {"name": "Kinergetics"}
-        , {"name": "Metal Decor Studios"}
-        , {"name": "Monkeyshines"}
-        , {"name": "Prosource"}
-        , {"name": "South Central Regional Trauma Advisory Council"}
-        , {"name": "South Central Wisconsin Healthcare Emergency Readiness Coalition"}
-        , {"name": "Townedge"}
-        , {"name": "Wisconsin State Fire Inspectors Association"}
+        {"name": "Alt's Operation", "jobType": "WordPress Development"}
+        , {"name": "Be Dynamic Training", "jobType": "WordPress Consulting"}
+        , {"name": "Firefighter Dynamic Performance Training", "jobType": "WordPress Consulting"}
+        , {"name": "First, Respond Well", "jobType": "WordPress Development"}
+        , {"name": "Fitchburg Fire & Rescue Association", "jobType": "WordPress Development"}
+        , {"name": "It's Advertising", "jobType": "PHP & MySQL Development"}
+        , {"name": "Kinergetics", "jobType": "WordPress Development"}
+        , {"name": "Metal Decor Studios", "jobType": "WordPress Development"}
+        , {"name": "Monkeyshines", "jobType": "WordPress Development"}
+        , {"name": "Prosource", "jobType": "WordPress Development"}
+        , {"name": "South Central Regional Trauma Advisory Council", "jobType": "WordPress Development"}
+        , {"name": "South Central Wisconsin Healthcare Emergency Readiness Coalition", "jobType": "WordPress Development"}
+        , {"name": "Townedge", "jobType": "WordPress Development"}
+        , {"name": "Wisconsin State Fire Inspectors Association", "jobType": "PHP, MySQL, and Node.js Development"}
     ]
 }
