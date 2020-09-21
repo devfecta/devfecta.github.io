@@ -183,7 +183,7 @@ class Resume extends Component {
 
             clients = this.props.resumeData.clients.map( (client, index) => {
                 return (
-                    <div key={index} className="col-md-6 p-2">{client.name} <em className="small">({client.jobType})</em></div>
+                    <div key={index} className="col-md-6 p-2">{client.name}<br/><em className="small">({client.jobType})</em></div>
                 );
             });
         }
