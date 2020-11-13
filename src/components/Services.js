@@ -12,7 +12,7 @@ class Services extends Component {
                 <div id="serviceImage" className="w-100"></div>
                 <article id="serviceArticle">
                     <div id="serviceIntro" className="px-3 text-light d-flex align-items-center">
-                            <p className="container">DevFecta is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
+                            <p className="container">DevFecta (<em>duh·eh·vuh·fek·tuh</em>) is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
                                 website design, web development, and graphic design services. In addition, I also offer consulting services for 
                                 when you just need a little help with a current web project.</p>
                     </div>

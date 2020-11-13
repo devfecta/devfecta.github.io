@@ -18,6 +18,7 @@ class App extends Component {
     }
 
 	componentDidMount() {
+		//console.log('App componentDidMount');
 		fetch('./resumeData.json')
 		.then(response => response.json())
 		.then(result => {

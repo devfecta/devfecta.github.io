@@ -5,11 +5,11 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>http://devfecta.com/</loc>
+		<loc>https://devfecta.com/</loc>
 		<lastmod>2020-09-12</lastmod>
 	</url>
 	<url>
-		<loc>http://devfecta.com/resume</loc>
+		<loc>https://devfecta.com/resume</loc>
 		<lastmod>2020-09-12</lastmod>
 	</url>
 </urlset>
