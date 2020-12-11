@@ -118,7 +118,7 @@ const Resume = props => {
 class Resume extends Component {
 
     componentDidMount() {
-        console.log('Resume componentDidMount');
+        //console.log('Resume componentDidMount');
         
         //console.log(this.props);
         /*
@@ -131,8 +131,8 @@ class Resume extends Component {
     }
 
     render() {
-        console.log('render');
-        console.log(this.props);
+        //console.log('render');
+        //console.log(this.props);
 
 
         let workExperience = "";

@@ -18,12 +18,11 @@ class App extends Component {
     }
 
 	componentDidMount() {
-		console.log('App componentDidMount');
+		//console.log('App componentDidMount');
 		fetch('./resumeData.json')
 		.then(response => response.json())
 		.then(result => {
 			//const experiences = result.map(experience => experience);
-			console.log(result);
 			this.setState({
 					workExperience : result
 				}
