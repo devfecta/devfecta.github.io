@@ -22,7 +22,7 @@ main {
 #serviceImage {
 	height: 500px;
 	background-color: #000;
-	background-image: url("/images/web-development.jpg");
+	background-image: url("http://devfecta.com/images/web-development.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.4;
