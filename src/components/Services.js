@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Service from './Service';
 
@@ -49,7 +50,7 @@ class Services extends Component {
             </section>
             <section>
                 <article id="portfolioArticle" className="d-flex justify-content-center">
-                    <a href="/resume" className="btn btn-primary">View My Resume</a>
+                    <Link to="/resume" className="btn btn-primary">View My Resume</Link>
                 </article>
             </section>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { FaGithub, FaWikipediaW, FaLinkedin, FaAt, FaFile } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
 
@@ -37,7 +38,7 @@ class Header extends Component {
                                     <a className="nav-link" href="mailto:devfecta@gmail.com"><FaAt /> Contact </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/resume"><FaFile /> Resume </a>
+                                    <Link to="/resume" className="nav-link"><FaFile /> Resume </Link>
                                 </li>
                             </ul>
 
