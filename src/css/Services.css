@@ -1,0 +1,36 @@
+#servicesIntro {
+  position: relative;
+  font-size: 1.5em;
+  min-height: 350px;
+  padding: 1.5em;
+}
+
+#servicesSVG {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+  margin: -25px 0;
+  padding: 0;
+}
+
+#additionalServices {
+  padding: 1.5em;
+  font-size: 1.5em;
+}
+
+.bg-transparency {
+  opacity: 0.9;
+}
+
+.bg-devfecta-hover:hover,
+.bg-light-hover:hover {
+  background-color: #555 !important;
+  transition: background-color 500ms linear;
+}
+
+.bg-light-hover:hover {
+  color: #fff !important;
+  transition: background-color 500ms linear;
+}
