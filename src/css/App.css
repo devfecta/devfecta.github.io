@@ -15,7 +15,7 @@ a {
   font-weight: bold;
 }
 
-main a:after {
+main a[target="_blank"]:after {
   content: " \1F517";
 }
 
