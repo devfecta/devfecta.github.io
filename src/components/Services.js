@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 //import Service from './Service';
 
 import { FaWordpress } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+
 
 import '../css/Services.css';
 
@@ -14,7 +14,7 @@ class Services extends Component {
 
         const backgroundShape = {
             fill: "#003153",
-            fillRule: "evenodd"
+            fillRule: "evenodd",
         };
 
         return (
@@ -36,28 +36,32 @@ class Services extends Component {
                         
                 </section>
 
-                <section className="row d-flex align-items-stretch">
-                    <h1 className="text-light text-center p-3"><FaWordpress /> WordPress Website Care Plans</h1>
-                    <article className="col-md-3 text-light p-5 bg-devfecta bg-transparency">
-                        <h3>1-Month of Ongoing Updating and Monitoring</h3>
+                <section className="row d-flex align-items-stretch text-center">
+                    <h1 className="text-light p-3"><FaWordpress /> WordPress Website Care Plans</h1>
+                    <article className="col-md-3 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency">
+                        <h3>1-Month</h3>
+                        <h5>Ongoing Updating and Monitoring</h5>
                         <p className="h4">$100/billed monthly</p>
                     </article>
-                    <article className="col-md-3 text-dark p-5 bg-light bg-transparency">
-                        <h3>3-Months of Ongoing Updating and Monitoring</h3>
+                    <article className="col-md-3 text-dark p-5 border-top border-bottom border-1 border-primary bg-light bg-transparency">
+                        <h3>3-Months</h3>
+                        <h5>Ongoing Updating and Monitoring</h5>
                         <p className="h4">$290/billed quarterly</p>
                     </article>
-                    <article className="col-md-3 text-light p-5 bg-devfecta bg-transparency">
-                        <h3>6-Months of Ongoing Updating and Monitoring</h3>
-                        <p className="h4">$575/billed biannualy</p>
+                    <article className="col-md-3 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency">
+                        <h3>6-Months</h3>
+                        <h5>Ongoing Updating and Monitoring</h5>
+                        <p className="h4">$575/billed biannually</p>
                     </article>
-                    <article className="col-md-3 text-dark p-5 bg-light bg-transparency">
-                        <h3>1-Year of Ongoing Updating and Monitoring</h3>
-                        <p className="h4">$1100/billed annualy</p>
+                    <article className="col-md-3 text-dark p-5 border-top border-bottom border-1 border-primary bg-light bg-transparency">
+                        <h3>1-Year</h3>
+                        <h5>Ongoing Updating and Monitoring</h5>
+                        <p className="h4">$1100/billed annually</p>
                     </article>
                 </section>
 
                 <section className="row d-flex justify-items-end align-items-stretch">
-                    <article className="col-md-6 text-light p-5 bg-devfecta bg-transparency bg-devfecta-hover">
+                    <article className="col-md-6 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency bg-devfecta-hover">
                         <h3>Updates &amp; Maintenance</h3>
                         <p>Periodically there are updates released for the core system of WordPress along with the installed theme, and 
                             plugins that will require updating due to updates made by the developers. If there haven't been any custom 
@@ -66,7 +70,7 @@ class Services extends Component {
                             web server before updating WordPress, themes, and plugins. DevFecta can manage the updating processes as 
                             part of the ongoing updating and monitoring plan.</p>
                     </article>
-                    <article className="col-md-6 text-dark p-5 bg-light bg-transparency bg-light-hover">
+                    <article className="col-md-6 text-dark p-5 border-bottom border-1 border-primary bg-light bg-transparency bg-light-hover">
                         <h3>Security &amp; Backups</h3>
                         <p>Website hacks are an inevitable and unfortunate part of having a website, and the effects can 
                             vary. So website monitoring, and periodic backups are necessary to have a version of the website to revert 
@@ -79,7 +83,7 @@ class Services extends Component {
                             submitted and indexed in the major search engines. Also, DevFecta can make suggestions on the client’s website content 
                             to possibly improve their search results ranking.</p>
                     </article>
-                    <article className="col-md-6 text-dark p-5  bg-light bg-transparency bg-light-hover ">
+                    <article className="col-md-6 text-dark p-5 bg-light bg-transparency bg-light-hover ">
                         <h3>Website Optimization</h3>
                         <p>Slow loading websites are not liked by frontend users and search engines. DevFecta can monitor how 
                             fast the client’s website is loading to make sure the frontend users’ experience is enjoyable, and keep search 

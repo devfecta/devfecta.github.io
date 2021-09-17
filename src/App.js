@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Services from './components/Services';
 import Home from './components/Home';
 import Resume from './components/Resume'
+import Portfolio from './components/Portfolio'
 import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -48,6 +49,7 @@ class App extends Component {
 							<Route exact path="/" component={Home} />
 							<Route path="/services" component={Services} />
 							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
+							<Route path="/portfolio" component={Portfolio} />
 						</Switch>
 					</main>
 				<Footer />

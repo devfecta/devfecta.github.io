@@ -10,6 +10,15 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:after {
+  content: " \1F517";
+}
+
 .badge-devfecta {
   color: #fff;
   background-color: #003153;
@@ -50,6 +59,10 @@ section {
   background-color: #fff;
 }
 
+.border-primary {
+  border-color: #003153 !important;
+}
+
 .btn-primary {
   background-color: #003153;
   border: #003153 solid 1px;
@@ -69,6 +82,10 @@ footer {
 
 .serviceCard {
   box-shadow: #000 3px 3px 5px;
+}
+
+.caption {
+  font-size: 90%;
 }
 
 .App {
