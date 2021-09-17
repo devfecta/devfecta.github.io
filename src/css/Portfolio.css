@@ -1,0 +1,37 @@
+.portfolio-article:nth-child(3n - 1) {
+  color: #000;
+  background-color: #ddd;
+}
+
+.portfolio-article:nth-child(3n - 1) a {
+  color: #000;
+}
+
+.portfolio-article:nth-child(3n + 0) {
+  color: #000;
+  background-color: #fff;
+}
+
+.portfolio-article:nth-child(3n + 0) a {
+  color: #000;
+}
+
+.portfolio-article:nth-child(3n + 1) {
+  color: #fff;
+  background-color: #003153;
+}
+
+.portfolio-article:nth-child(3n + 1) a {
+  color: #fff;
+}
+
+.portfolio-article:hover {
+  color: #fff;
+  background-color: #666;
+  transition: all 500ms linear;
+}
+
+.portfolio-article:hover a {
+  color: #fff;
+  transition: all 500ms linear;
+}
