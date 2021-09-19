@@ -10,12 +10,24 @@ body {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-main a:after {
+a {
+  text-decoration: none;
+}
+
+a.nav-link {
+  font-weight: normal;
+}
+
+main a[target="_blank"] {
+  font-style: normal;
+  font-weight: bold;
+}
+
+main a[target="_blank"]:after {
   content: " \1F517";
 }
 
@@ -44,8 +56,9 @@ header {
 }
 
 main {
-  padding-top: 5em;
-  background-color: #003153;
+  position: relative;
+  padding-top: 4.8em;
+  min-height: calc(100vh - 3.5em);
 }
 
 section {
@@ -77,10 +90,9 @@ footer {
   background-color: #333;
   padding: 1em;
   z-index: 1;
-  position: relative;
 }
 
-.serviceCard {
+.card {
   box-shadow: #000 3px 3px 5px;
 }
 
@@ -92,37 +104,14 @@ footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  background-color: #003153;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 991.97px) { 
+  body { background-color: #003153 !important; };
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 991.98px) {
+  main { background-color: #fff !important; };
 }

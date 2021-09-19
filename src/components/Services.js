@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
+import Subscription from './Subscription';
 //import { Link } from 'react-router-dom';
 
-//import Service from './Service';
-
 import { FaWordpress } from 'react-icons/fa';
-
 
 import '../css/Services.css';
 
@@ -14,11 +12,11 @@ class Services extends Component {
 
         const backgroundShape = {
             fill: "#003153",
-            fillRule: "evenodd",
+            fillRule: "evenodd"
         };
 
         return (
-            <div className="container-fluid bg-white h-100">
+            <div className="container-fluid h-100">
                 <section className="row">
 
                     <svg xmlns="https://www.w3.org/2000/svg" id="servicesSVG" viewBox="0 0 100 500" preserveAspectRatio="none">
@@ -36,28 +34,75 @@ class Services extends Component {
                         
                 </section>
 
-                <section className="row d-flex align-items-stretch text-center">
+                <section className="row d-flex align-items-stretch justify-content-around text-center pb-4">
                     <h1 className="text-light p-3"><FaWordpress /> WordPress Website Care Plans</h1>
-                    <article className="col-md-3 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency">
-                        <h3>1-Month</h3>
-                        <h5>Ongoing Updating and Monitoring</h5>
-                        <p className="h4">$100/billed monthly</p>
+
+                    <article className="col-sm-10 col-md-5 col-lg-3">
+                        <Subscription 
+                            title="1-Month Plan" 
+                            subTitle="Ongoing Updating and Monitoring" 
+                            description={<>
+                                <ul className="fs-6 mx-5 text-start">
+                                    <li>Updates &amp; Maintenance</li>
+                                    <li>Security &amp; Backups</li>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Website Optimization</li>
+                                </ul>
+                            </>} 
+                            pricing={<>$100/billed monthly</>} 
+                            link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Month" />
                     </article>
-                    <article className="col-md-3 text-dark p-5 border-top border-bottom border-1 border-primary bg-light bg-transparency">
-                        <h3>3-Months</h3>
-                        <h5>Ongoing Updating and Monitoring</h5>
-                        <p className="h4">$290/billed quarterly</p>
+
+                    <article className="col-sm-10 col-md-5 col-lg-3">
+                        <Subscription 
+                            title="3-Months Plan" 
+                            subTitle="Ongoing Updating and Monitoring" 
+                            description={<>
+                                <ul className="fs-6 mx-5 text-start">
+                                    <li>Updates &amp; Maintenance</li>
+                                    <li>Security &amp; Backups</li>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Website Optimization</li>
+                                </ul>
+                            </>} 
+                            pricing={<>$290/billed quarterly</>} 
+                            link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-3Months" />
                     </article>
-                    <article className="col-md-3 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency">
-                        <h3>6-Months</h3>
-                        <h5>Ongoing Updating and Monitoring</h5>
-                        <p className="h4">$575/billed biannually</p>
+
+                    <article className="col-sm-10 col-md-5 col-lg-3">
+                        <Subscription 
+                            title="6-Months Plan" 
+                            subTitle="Ongoing Updating and Monitoring" 
+                            description={<>
+                                <ul className="fs-6 mx-5 text-start">
+                                    <li>Updates &amp; Maintenance</li>
+                                    <li>Security &amp; Backups</li>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Website Optimization</li>
+                                </ul>
+                            </>} 
+                            pricing={<>$575/billed biannually</>} 
+                            link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-6Months" />
                     </article>
-                    <article className="col-md-3 text-dark p-5 border-top border-bottom border-1 border-primary bg-light bg-transparency">
-                        <h3>1-Year</h3>
-                        <h5>Ongoing Updating and Monitoring</h5>
-                        <p className="h4">$1100/billed annually</p>
+
+                    <article className="col-sm-10 col-md-5 col-lg-3">
+                        <Subscription 
+                            title="1-Year Plan" 
+                            subTitle="Ongoing Updating and Monitoring" 
+                            description={<>
+                                <ul className="fs-6 mx-5 text-start">
+                                    <li>Updates &amp; Maintenance</li>
+                                    <li>Security &amp; Backups</li>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Website Optimization</li>
+                                </ul>
+                            </>} 
+                            pricing={<>$1100/billed annually</>} 
+                            link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Year" />
                     </article>
+
+                    
+                    
                 </section>
 
                 <section className="row d-flex justify-items-end align-items-stretch">

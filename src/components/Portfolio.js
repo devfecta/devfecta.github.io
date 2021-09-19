@@ -8,7 +8,7 @@ class Portfolio extends Component {
     render() {
         return (
 
-            <div className="container-fluid bg-white h-100">
+            <div className="container-fluid bg-white">
                 <section className="row d-flex align-items-stretch bg-dark">
 
                     <h1 className="text-light p-3 text-center"><FaWordpress /> WordPress Development</h1>

@@ -10,7 +10,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="text-light text-center">
+            <footer className="footer w-100 text-light text-center">
                 <span className="container">&copy; {this.currentYear} DevFecta, LLC</span>
             </footer>
         );
