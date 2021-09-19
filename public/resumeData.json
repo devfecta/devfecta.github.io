@@ -18,7 +18,7 @@
         , "java" : { "description" : "Java", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Java" }
         , "javascript" : { "description" : "JavaScript", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/JavaScript" }
         , "jquery" : { "description" : "jQuery", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/jQuery" }
-        , "linux" : { "description" : "Linux (usually Ubuntu 18.04.x & 19.04.x) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Linux" }
+        , "linux" : { "description" : "Linux (usually Ubuntu 18.04.x - 20.04.x) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Linux" }
         , "mvc" : { "description" : "MVC (Model View Controller)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/MVC" }
         , "mysql" : { "description" : "MySQL 5.x (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/MySQL" }
         , "nodejs" : { "description" : "Node.js", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Node.js" }

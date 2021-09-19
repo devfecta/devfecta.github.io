@@ -10,7 +10,7 @@ class Home extends Component {
     render() {
 
         return (
-            <div className="container-fluid">
+            <div className="container-fluid bg-devfecta">
                 <section className="row">
                     
                     <article>
@@ -24,7 +24,7 @@ class Home extends Component {
                 </section>
 
                 <section className="row d-flex justify-content-center pb-2">
-                    <article className="col-md-3 d-flex align-items-stretch">
+                    <article className="col-sm-10 col-md-5 col-lg-3 d-flex align-items-stretch">
                         <Service 
                             title="Development" 
                             description={<>DevFecta's web development and programming expertise integrates custom programming and design to 
@@ -32,7 +32,7 @@ class Home extends Component {
                                 reflect who you are, and is a primary contact for your business.<br/><br/>Your goals are at the forefront of every 
                                 project I do and will provide reliable ongoing tech support to my clients.</>} />
                     </article>
-                    <article className="col-md-3 d-flex align-items-stretch">
+                    <article className="col-sm-10 col-md-5 col-lg-3 d-flex align-items-stretch">
                         <Service 
                             title="Design" 
                             description={<>DevFecta develops websites of all sizes. My web design process can either start 
@@ -41,7 +41,7 @@ class Home extends Component {
                                 Give your business an online web presence with information about your products or services. Your website will 
                                 be custom designed and developed to meet the needs of your business.</>} />
                     </article>
-                    <article className="col-md-3 d-flex align-items-stretch">
+                    <article className="col-sm-10 col-md-5 col-lg-3 d-flex align-items-stretch">
                         <Service 
                             title="Consulting" 
                             description={<>Got a web project that's grown and just need a little extra help, or just can't figure out an issue 

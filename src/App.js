@@ -2,11 +2,13 @@ import React, { Component }  from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
+
 import Services from './components/Services';
 import Home from './components/Home';
-import Resume from './components/Resume'
-import Portfolio from './components/Portfolio'
-import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import ConfirmSubscription from './components/ConfirmSubscription';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //import 'jquery/dist/jquery.js';
@@ -50,6 +52,7 @@ class App extends Component {
 							<Route path="/services" component={Services} />
 							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
 							<Route path="/portfolio" component={Portfolio} />
+							<Route path="/confirmSubscription" component={ConfirmSubscription} />
 						</Switch>
 					</main>
 				<Footer />
