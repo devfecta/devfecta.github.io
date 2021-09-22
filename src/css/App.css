@@ -28,6 +28,10 @@ a.nav-link {
   font-weight: normal;
 }
 
+.link-primary {
+  color: #003153;
+}
+
 main a[target="_blank"] {
   font-style: normal;
   font-weight: bold;
