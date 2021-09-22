@@ -10,7 +10,13 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #003153;
   font-weight: bold;
 }
 
@@ -108,10 +114,14 @@ main {
   background-color: #003153;
 }
 
-@media (max-width: 991.97px) { 
-  body { background-color: #003153 !important; };
+@media (max-width: 991.97px) {
+  body {
+    background-color: #003153 !important;
+  }
 }
 
 @media (min-width: 991.98px) {
-  main { background-color: #fff !important; };
+  main {
+    background-color: #fff !important;
+  }
 }

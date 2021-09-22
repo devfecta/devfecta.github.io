@@ -9,6 +9,8 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import ConfirmSubscription from './components/ConfirmSubscription';
+import TermsWebsiteCarePlan from './components/TermsWebsiteCarePlan';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //import 'jquery/dist/jquery.js';
@@ -53,6 +55,8 @@ class App extends Component {
 							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
 							<Route path="/portfolio" component={Portfolio} />
 							<Route path="/confirmSubscription" component={ConfirmSubscription} />
+							<Route path="/termsWebsiteCarePlan" component={TermsWebsiteCarePlan} />
+							
 						</Switch>
 					</main>
 				<Footer />
