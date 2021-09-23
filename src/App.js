@@ -12,12 +12,7 @@ import ConfirmSubscription from './components/ConfirmSubscription';
 import TermsWebsiteCarePlan from './components/TermsWebsiteCarePlan';
 
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-//import 'jquery/dist/jquery.js';
-//import 'popper.js/dist/umd/popper.js';
-//import 'bootstrap/dist/js/bootstrap.min.js';
-//import 'bootstrap/dist/js/bootstrap.bundle.js';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './css/App.css';
 
@@ -56,7 +51,6 @@ class App extends Component {
 							<Route path="/portfolio" component={Portfolio} />
 							<Route path="/confirmSubscription" component={ConfirmSubscription} />
 							<Route path="/termsWebsiteCarePlan" component={TermsWebsiteCarePlan} />
-							
 						</Switch>
 					</main>
 				<Footer />

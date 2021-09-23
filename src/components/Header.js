@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 import { Nav, Navbar } from "react-bootstrap";
 
-
-import { FaGithub, FaWikipediaW, FaLinkedin, FaAt, FaFile, FaTerminal, FaFileCode } from 'react-icons/fa';
-//import { Link } from 'react-router-dom';
+import { FaGithub, FaWikipediaW, FaLinkedin, FaAt, FaTerminal, FaFileCode } from 'react-icons/fa';
 
 class Header extends Component {
 
@@ -31,7 +29,6 @@ class Header extends Component {
                                 <Nav.Link href="https://www.linkedin.com/company/devfecta" target="_blank" rel="noopener noreferrer"><FaLinkedin /> LinkedIn </Nav.Link>
                                 <Nav.Link href="mailto:devfecta@gmail.com"><FaAt /> Contact </Nav.Link>
                                 <Nav.Link href="/services"><FaTerminal /> Services </Nav.Link>
-                                <Nav.Link href="/resume"><FaFile /> Resume </Nav.Link>
                                 <Nav.Link href="/portfolio"><FaFileCode /> Portfolio </Nav.Link>
                             </Nav>
 

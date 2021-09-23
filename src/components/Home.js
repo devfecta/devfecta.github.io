@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import { FaGithub, FaPhone, FaLinkedin, FaAt, FaFile, FaMapMarkerAlt } from 'react-icons/fa';
+
 import Service from './Service';
+
+import GoogleMap from './GoogleMap';
 
 import '../css/Home.css';
 
@@ -10,7 +14,9 @@ class Home extends Component {
     render() {
 
         return (
+            
             <div className="container-fluid bg-devfecta">
+
                 <section className="row">
                     
                     <article>
@@ -50,11 +56,26 @@ class Home extends Component {
                     </article>
                 </section>
 
-                <section className="row p-0">
-                    <article id="resumeArticle" className="d-flex justify-content-center">
-                        <Link to="/resume" className="btn btn-primary">View My Resume</Link>
+                <section id="contactSection" className="row bg-dark d-flex justify-content-center">
+                    
+                    <article className="col-md-6 text-light d-flex justify-content-center align-items-center">
+                        <address style={{ listStyleType: "none", lineHeight: "2em" }}>
+                            <strong className="h3">DevFecta, LLC</strong><br />
+                            <FaMapMarkerAlt /> 1574 W Broadway Suite 200, Madison, WI 53713<br />
+                            <FaPhone /> <a href="tel:+1608-334-7200" className="text-light">(608) 334-7200</a><br />
+                            <FaAt /> <a href="mailto:kkelm@devfecta.com" className="text-light">kkelm@devfecta.com</a><br />
+                            <FaLinkedin /> <a href="https://www.linkedin.com/company/devfecta" className="text-light" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/company/devfecta</a><br />
+                            <FaGithub /> <a href="https://github.com/devfecta" className="text-light" target="_blank" rel="noopener noreferrer">https://github.com/devfecta</a><br />
+                            <FaFile /> <Link to="/resume" className="text-light">Resume</Link>
+                        </address>
                     </article>
+
+                    <div className="col-md-6 d-flex justify-content-center">
+                            <GoogleMap />
+                    </div>
+
                 </section>
+                
             </div>
         );
     }

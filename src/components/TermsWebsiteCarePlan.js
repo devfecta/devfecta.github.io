@@ -12,7 +12,7 @@ class TermsWebsiteCarePlans extends Component {
                 <h1 className="p-3 text-center">Website Care Plan Terms &amp; Conditions</h1>
                     <article className="container col-md-7">
 
-                    <p>This agreement is entered into when a subscription is purchased or as of the last date signed by the parties (the "Effective Date") between DevFecta, LLC, 
+                    <p>This agreement is entered into on the purchase date of a subscription (the "Effective Date") between DevFecta, LLC, 
                         whose principal place of residence is in Madison, WI with its principal place of business at 1574 W Broadway, Suite 200 
                         ("DevFecta") and the subscriber ("SUBSCRIBER").</p>
 
@@ -681,9 +681,9 @@ class TermsWebsiteCarePlans extends Component {
                         </li>
 
                         <li><h2>Definitions</h2>
-                            <p>"Subscriber" refers to the company and/or person(s) who signed up for a DevFecta website care plan and agreed to the terms of this agreement.</p>
+                            <p>"Subscriber" refers to the company and/or person(s) who subscribed to a DevFecta website care plan and agreed to the terms of this agreement.</p>
                             <p>"Affiliate" of any Person means, at the time the determination is made, any other Person that, directly or indirectly, controls, is controlled by, or is under common control with that Person. </p>
-                            <p>"DELIVERABLE(S)" refers to DevFecta's products and services in this agreement requested by the SUBSCRIBER. This also includes required third-party products and services.</p>
+                            <p>"Deliverable(s)" refers to DevFecta's products and services in this agreement requested by the SUBSCRIBER. This also includes required third-party products and services.</p>
                             <p>"Records" means all records, including books of account, ledgers and general, financial and accounting records, machinery and equipment maintenance files, lists of parties to and prospects 
                                 for franchise agreements, supplier lists, production data, quality control records and procedures, customer complaints, inquiry files, research, development files, records, data 
                                 (including all correspondence with any Governmental Authority), sales material and records (including pricing history and sales and pricing policies and practices), strategic plans, 

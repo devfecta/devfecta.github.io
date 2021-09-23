@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Subscription from './Subscription';
-//import { Link } from 'react-router-dom';
 
 import { FaWordpress } from 'react-icons/fa';
 
