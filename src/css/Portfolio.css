@@ -35,3 +35,7 @@
   color: #fff;
   transition: all 500ms linear;
 }
+
+h2 {
+  color: unset !important;
+}

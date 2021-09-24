@@ -29,14 +29,10 @@ class TermsWebsiteCarePlans extends Component {
                                     <p>DevFecta shall describe each individual DELIVERABLE to be provided under this agreement in its own statement of work (each, a "Statement of Work"), each one including </p>
                                     <ol type="1">
                                         <li>a full description of the particular DELIVERABLE provided under the Statement of Work,</li>
-                                        <li>the number of DevFecta's personnel who will be assigned to provide the particular DELIVERABLE,</li>
-                                        <li>key DevFecta personnel the parties agree are crucial to the provision of the particular DELIVERABLE (not to exceed five percent of the total 
-                                            personnel assigned to that Statement of Work) (each one a "Key Personnel"),</li>
                                         <li>the applicable Fees and fee schedule, including any milestones and milestone payments if applicable, for the particular DELIVERABLE,</li>
                                         <li>the service levels and acceptance criteria for the particular DELIVERABLE,</li>
                                         <li>any materials the parties will provide for the particular DELIVERABLE,</li>
-                                        <li>a timeline for providing the particular DELIVERABLE, and</li>
-                                        <li>a unique identification number for the Statement of Work and explicit reference to this agreement.</li>
+                                        <li>a timeline for providing the particular DELIVERABLE.</li>
                                     </ol>
                                 </li>
                                 <li>Integration
@@ -50,21 +46,21 @@ class TermsWebsiteCarePlans extends Component {
                                 </li>
                                 <li>Changes to Statements of Work
                                     <ol type="1">
-                                        <li>Proposing Changes. Either party may propose changes to the DELIVERABLES, Fees, or schedule of a Statement of Work by giving written notice to the other party.</li>
-                                        <li>Finalizing Changes. If the parties agree to change the DELIVERABLES, Fees, or schedule of a Statement of Work, they parties shall cooperate to execute a 
+                                        <li><strong>Proposing Changes.</strong> Either party may propose changes to the DELIVERABLES, Fees, or schedule of a Statement of Work by giving written notice to the other party.</li>
+                                        <li><strong>Finalizing Changes.</strong> If the parties agree to change the DELIVERABLES, Fees, or schedule of a Statement of Work, they parties shall cooperate to execute a 
                                             written amendment to the relevant Statement of Work detailing the changes.</li>
                                     </ol>
                                 </li>
                                 <li>Additional Statements of Work
                                     <ol type="1">
-                                        <li>Request Additional Services. The SUBSCRIBER may request additional services by written notice to DevFecta reasonably detailing the requested services.</li>
-                                        <li>Assess the Request. Promptly after receiving a request for additional services from the SUBSCRIBER, DevFecta shall
+                                        <li><strong>Request Additional Services.</strong> The SUBSCRIBER may request additional services by written notice to DevFecta reasonably detailing the requested services.</li>
+                                        <li><strong>Assess the Request.</strong> Promptly after receiving a request for additional services from the SUBSCRIBER, DevFecta shall
                                             <ol type="a">
                                                 <li>assess the request to determine if there are circumstances preventing it from providing the services, and</li>
                                                 <li>if there are no circumstances preventing it from providing the requested services, provide DevFecta with estimated Fees and timeline for the requested services.</li>
                                             </ol>
                                         </li>
-                                        <li>Execute New Statement of Work. If after receiving DevFecta's estimates the SUBSCRIBER still wants the requested services, the parties shall execute a new 
+                                        <li><strong>Execute New Statement of Work.</strong> If after receiving DevFecta's estimates the SUBSCRIBER still wants the requested services, the parties shall execute a new 
                                             Statement of Work according to the requirements of paragraph "CONTENTS OF STATEMENTS OF WORK".</li>
                                     </ol>
                                 </li>
@@ -178,18 +174,12 @@ class TermsWebsiteCarePlans extends Component {
                                 <li>Authority and Capacity
                                     <p>The parties have the authority and capacity to enter into this agreement.</p>
                                 </li>
-                            </ol>
-                            <ol type="1">
                                 <li>Execution and Delivery
                                     <p>The parties have executed and delivered this agreement.</p>
                                 </li>
-                            </ol>
-                            <ol type="1">
                                 <li>Enforceability
                                     <p>This agreement constitutes a legal, valid, and binding obligation, enforceable against the parties according to its terms.</p>
                                 </li>
-                            </ol>
-                            <ol type="1">
                                 <li>No Conflicts
                                     <p>Neither party is under any restriction or obligation that may affect the performance of its obligations under this agreement.</p>
                                 </li>
@@ -231,8 +221,8 @@ class TermsWebsiteCarePlans extends Component {
                                 </li>
                                 <li>Contact Information
                                     <ol type="1">
-                                        <li>Project Manager Information. Promptly after the Effective Date, each party shall provide the other party with the name, telephone number, and e-mail address of its Project Manager.</li>
-                                        <li>Emergency Contact. In addition to DevFecta's Project Manager, DevFecta shall provide the name, telephone number, and e-mail address of its personnel who the SUBSCRIBER should 
+                                        <li><strong>Project Manager Information.</strong> Promptly after the Effective Date, each party shall provide the other party with the name, telephone number, and e-mail address of its Project Manager.</li>
+                                        <li><strong>Emergency Contact.</strong> In addition to DevFecta's Project Manager, DevFecta shall provide the name, telephone number, and e-mail address of its personnel who the SUBSCRIBER should 
                                             contact in case of any disruptions, outages, latency, or other issues with a DELIVERABLE.</li>
                                     </ol>
                                 </li>
@@ -253,27 +243,6 @@ class TermsWebsiteCarePlans extends Component {
                                 <li>Supervision of Personnel
                                     <p>DevFecta shall be responsible for all personnel assigned to provide the DELIVERABLES to the SUBSCRIBER.</p>
                                 </li>
-                                <li>Security Training
-                                    <p>DevFecta shall ensure that its personnel, on hiring and at least once a year afterwards, participate in security awareness training, including at a minimum, DevFecta’s security 
-                                        policies, including acceptable use, password protection, data classification, incident and breach reporting, the repercussions of violations, and brief overviews of applicable laws and regulations.</p>
-                                </li>
-                                <li>Key Personnel
-                                    <p>DevFecta will not, without good cause, replace any Key Personnel unless the SUBSCRIBER consents in writing.</p>
-                                </li>
-                                <li>Replacement Personnel
-                                    <ol type="1">
-                                        <li>Request for Good Cause. For good cause, the SUBSCRIBER may request replacement of any of DevFecta's personnel.</li>
-                                        <li>Response to Request. If the SUBSCRIBER has good cause to request a replacement, within ten Business Days' of receiving the request, DevFecta shall use reasonable efforts to provide 
-                                            substitute personnel of sufficient skill, knowledge, and training, subject to their availability.</li>
-                                    </ol>
-                                </li>
-                                <li>Background Checks, Criminal Records Checks, and Credit Checks
-                                    <p>To the extent permitted by Law and after obtaining the applicable consents from the affected personnel, before assigning any personnel to provide DELIVERABLES under this agreement DevFecta shall</p>
-                                    <ol type="1">
-                                        <li>complete background checks on all these personnel, and</li>
-                                        <li>on the SUBSCRIBER's reasonable request and sole expense, update any of these checks.</li>
-                                    </ol>
-                                </li>
                             </ol>
                         </li>
 
@@ -283,7 +252,7 @@ class TermsWebsiteCarePlans extends Component {
                                     <p>DevFecta will not subcontract any Work without the SUBSCRIBER's written consent.</p>
                                 </li>
                                 <li>DevFecta Remains Responsible
-                                    <p>DevFecta will </p>
+                                    <p>DevFecta will</p>
                                     <ol type="1">
                                         <li>be deemed to have performed any Work actually performed by a subcontractor, and</li>
                                         <li>remain responsible and liable for any Work performed by a subcontractor as if DevFecta had provided the Work itself.</li>
@@ -292,7 +261,7 @@ class TermsWebsiteCarePlans extends Component {
                             </ol>
                         </li>
 
-                        <li><h2>Software Deliverables and License Grant</h2>
+                        <li><h2>Software Deliverables</h2>
                             <ol type="1">
                                 <li>Software Provided in Source Code
                                     <p>Unless the parties agree otherwise in any Statement of Work or any separate license or technology agreement, if DevFecta provides the SUBSCRIBER with any 
@@ -301,20 +270,6 @@ class TermsWebsiteCarePlans extends Component {
                                 </li>
                                 <li>Object Code Only
                                     <p>DevFecta will be required to provide Software Deliverables in object code only, if applicable.</p>
-                                </li>
-                                <li>Software License Grant
-                                    <p>DevFecta hereby grants to the SUBSCRIBER a non-exclusive, nontransferable worldwide license to</p>
-                                    <ol type="1">
-                                        <li>use and display, to the extent necessary for the SUBSCRIBER obtain the benefit of the relevant DELIVERABLES, any Software Deliverables DevFecta provides to the SUBSCRIBER under this agreement,</li>
-                                        <li>use and display, to the extent necessary for the SUBSCRIBER obtain the benefit of the relevant DELIVERABLES, any documentation regarding the provided Software Deliverables, and</li>
-                                        <li>make copies of the Software Deliverable and documentation for the SUBSCRIBER's internal use.</li>
-                                    </ol>
-                                </li>
-                                <li>Firmware Sold, Not Licensed
-                                    <p>The license granted under this section applies to software separable from any hardware provided by DevFecta, and does not apply to any firmware related to the DELIVERABLES, which is sold instead of licensed.</p>
-                                </li>
-                                <li>Termination of License Grant
-                                    <p>The SUBSCRIBER's license to use, display, and make copies of a Software Deliverable and the related documentation will expire or terminate on the expiration or termination of the applicable Statement of Work.</p>
                                 </li>
                                 <li>Third Party Software 
                                     <p>If any Software Deliverables are licensed to DevFecta by a third party, the SUBSCRIBER shall be bound by any different or additional conditions that are required by the third party that DevFecta communicates to the SUBSCRIBER in writing.</p>
@@ -528,22 +483,6 @@ class TermsWebsiteCarePlans extends Component {
                             </ol>
                         </li>
 
-                        <li><h2>Inspection and Audit of Records</h2>
-                            <ol type="1">
-                                <li>Retain Records
-                                    <p>Each party shall keep its Records (including personnel files) that relate to this agreement, and maintain them in a manner reasonably consistent with prior practices.</p>
-                                </li>
-                                <li>Inspection and Audit
-                                    <p>On reasonable notice from the other party, each party shall provide the other party, and the other party's Representatives, reasonable access to its Records that relate to 
-                                        this agreement (and allow the other party to make photocopies, at the other party's expense), during normal business hours.</p>
-                                </li>
-                                <li>Corrections
-                                    <p>If either party's audit reveals errors or discrepancies in the other party's Records, the other party shall promptly correct the error or discrepancy, including 
-                                        refunding any over-payments or making up any under-payments.</p>
-                                </li>
-                            </ol>
-                        </li>
-
                         <li><h2>Termination</h2>
                             <ol type="1">
                                 <li>Termination on Notice
@@ -652,13 +591,13 @@ class TermsWebsiteCarePlans extends Component {
                                 </li>
                                 <li>Notice and Failure to Notify
                                     <ol type="1">
-                                        <li>Notice Requirement. Before bringing a claim for indemnification, the indemnified party shall
+                                        <li><strong>Notice Requirement.</strong> Before bringing a claim for indemnification, the indemnified party shall
                                             <ol type="a">
                                                 <li>notify the indemnifying party of the indemnifiable proceeding, and</li>
                                                 <li>deliver to the indemnifying party all legal pleadings and other documents reasonably necessary to indemnify or defend the indemnifiable proceeding.</li>
                                             </ol>
                                         </li>
-                                        <li>Failure to Notify. If the indemnified party fails to notify the indemnifying party of the indemnifiable proceeding, the indemnifying party will be relieved of its 
+                                        <li><strong>Failure to Notify.</strong> If the indemnified party fails to notify the indemnifying party of the indemnifiable proceeding, the indemnifying party will be relieved of its 
                                             indemnification obligations to the extent it was prejudiced by the indemnified party's failure.</li>
                                     </ol>
                                 </li>
@@ -713,7 +652,6 @@ class TermsWebsiteCarePlans extends Component {
                                 <li>other intellectual property and related proprietary rights, interests and protections (including all rights to sue and recover and retain damages, costs and attorneys' 
                                     fees for past, present, and future infringement, and any other rights relating to any of the foregoing).</li>
                             </ol>
-                            <p>"Key Personnel" is defined in section "STATEMENTS OF WORK".</p>
                             <p>"Law" means</p>
                             <ol type="1">
                                 <li>any law (including the common law), statute, bylaw, rule, regulation, order, ordinance, treaty, decree, judgment, and </li>
@@ -731,7 +669,7 @@ class TermsWebsiteCarePlans extends Component {
                             <p>"Representative" means, for any Person, that Person's directors, officers, shareholders, owners, partners, employees, agents, professional advisors, in connection with the 
                                 transactions contemplated in this agreement, and any other authorized representatives.</p>
                             <p>"Services" is defined in section "SERVICES".</p>
-                            <p>"Software Deliverable" is defined in section "SOFTWARE DELIVERABLE AND LICENSE GRANT".</p>
+                            <p>"Software Deliverable" is defined in section "SOFTWARE DELIVERABLE".</p>
                             <p>"Statement of Work" is defined in section "SERVICES".</p>
                             <p>"Subsidiaries" means any legal entity </p>
                             <ol type="1">

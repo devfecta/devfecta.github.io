@@ -28,6 +28,14 @@ class Portfolio extends Component {
                     </article>
 
                     <article className="portfolio-article col-md-6 p-5">
+                        <h2>First Due Construction</h2>
+                        <a href="https://firstdueconstructionllc.com" target="_blank" rel="noopener noreferrer">firstdueconstructionllc.com</a>
+                        <p>First Due Construction is starting off as a single page Wordpress project that involves the setup of hosting and email service on Bluehost.
+                            The owner just wanted to have a place for potential clients to find him on the web, and answer a questionaire he created.
+                        </p>
+                    </article>
+
+                    <article className="portfolio-article col-md-6 p-5">
                         <h2>Metal Decor Studios</h2>
                         <a href="https://metaldecorstudios.com" target="_blank" rel="noopener noreferrer">metaldecorstudios.com</a>
                         <p>The development for Metal Decor Studios started off fairly simple with collecting information on what they would 
