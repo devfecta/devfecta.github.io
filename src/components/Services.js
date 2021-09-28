@@ -36,7 +36,7 @@ class Services extends Component {
                 <section className="row d-flex align-items-stretch justify-content-around text-center pb-4">
                     <h1 className="text-light p-3"><FaWordpress /> WordPress Website Care Plans</h1>
 
-                    <article className="col-sm-10 col-md-5 col-lg-3">
+                    <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
                         <Subscription 
                             title="1-Month Plan" 
                             subTitle="Ongoing Updating and Monitoring" 
@@ -52,7 +52,7 @@ class Services extends Component {
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Month" />
                     </article>
 
-                    <article className="col-sm-10 col-md-5 col-lg-3">
+                    <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
                         <Subscription 
                             title="3-Months Plan" 
                             subTitle="Ongoing Updating and Monitoring" 
@@ -68,7 +68,7 @@ class Services extends Component {
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-3Months" />
                     </article>
 
-                    <article className="col-sm-10 col-md-5 col-lg-3">
+                    <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
                         <Subscription 
                             title="6-Months Plan" 
                             subTitle="Ongoing Updating and Monitoring" 
@@ -84,7 +84,7 @@ class Services extends Component {
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-6Months" />
                     </article>
 
-                    <article className="col-sm-10 col-md-5 col-lg-3">
+                    <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
                         <Subscription 
                             title="1-Year Plan" 
                             subTitle="Ongoing Updating and Monitoring" 

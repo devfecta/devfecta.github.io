@@ -3,12 +3,10 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
 
 const containerStyle = {
-    width: '50vw',
     height: '300px',
     position: 'unset'
   };
   const mapStyle = {
-    width: '50vw',
     height: '300px',
     position: 'unset'
   };
@@ -46,6 +44,7 @@ class GoogleMap extends Component {
             zoom={14}
             style={mapStyle}
             containerStyle={containerStyle}
+            className="mapStyle"
             initialCenter={
                 {
                     lat: 43.0476791,
@@ -63,7 +62,7 @@ class GoogleMap extends Component {
             onClose={this.onClose}
             >
             <div>
-                <h4>{this.state.selectedPlace.name}</h4>
+                <h5>{this.state.selectedPlace.name}</h5>
             </div>
             </InfoWindow>
         </Map>
