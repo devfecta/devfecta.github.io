@@ -384,7 +384,7 @@ class TermsWebsiteCarePlans extends Component {
                         </li>
 
                         <li><h2>Confidentiality Obligations</h2>
-                            <p>The parties shall continue to be bound by the terms of the Non-Disclosure Agreement between the parties.</p>
+                            <p>The parties shall continue to be bound by the terms under the DevFecta's Use of Data section in this agreement.</p>
                         </li>
                         <li><h2>Mutual Non-Solicitation</h2>
                             <ol type="1">
@@ -685,8 +685,8 @@ class TermsWebsiteCarePlans extends Component {
                             <p>"Business Day" means a day other than a Saturday, a Sunday, or any other day on which the principal banks located in Madison, Wisconsin are 
                                 not open for business.</p>
                             <p>"Compensation" is defined in section "COMPENSATION".</p>
-                            <p>"Confidential Information" has the same definition in this agreement as it does in the Non-Disclosure Agreement between the parties, referred 
-                                to in section "CONFIDENTIALITY OBLIGATIONS".</p>
+                            <p>"Confidential Information" means all material, non-public, business-related information, written or oral, whether or not it is marked that is 
+                                disclosed or made available to the receiving party, directly or indirectly, through any means of communication or observation.</p>
                             <p>"Current Term" is defined in section "TERM".</p>
                             <p>"Data" means all information of, about, or relating to the SUBSCRIBER, including information</p>
                             <ol type="1">
