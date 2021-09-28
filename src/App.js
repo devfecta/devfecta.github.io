@@ -48,7 +48,7 @@ class App extends Component {
 							<Route exact path="/" component={Home} />
 							<Route path="/services" component={Services} />
 							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
-							<Route path="/portfolio" component={Portfolio} />
+							<Route path="/portfolio" render={props => (<Portfolio {...props} resumeData={this.state.workExperience} />)} />
 							<Route path="/confirmSubscription" component={ConfirmSubscription} />
 							<Route path="/termsWebsiteCarePlan" component={TermsWebsiteCarePlan} />
 						</Switch>

@@ -77,5 +77,21 @@
         , {"name": "South Central Wisconsin Healthcare Emergency Readiness Coalition", "jobType": "WordPress Development"}
         , {"name": "Townedge", "jobType": "WordPress Development"}
         , {"name": "Wisconsin State Fire Inspectors Association", "jobType": "PHP, MySQL, and Node.js Development"}
+    ],
+
+    "portfolio" : [
+        {"name": "Station 3 Challenge Coin", "image": "images/portfolio/FFD-Syene-Express.png"}
+        , {"name": "Explorer Post 2119 Patch", "image": "images/portfolio/Explorer-Post-2119-Patch.png"}
+        , {"name": "Command Staff Challenge Coin", "image": "images/portfolio/FFD-Command-Staff-Coin.png"}
+        , {"name": "Alt's Operation, Inc.", "image": "images/portfolio/Alts-Operation-Inc.png"}
+        , {"name": "IAFC Executive Fire Officers Section", "image": "images/portfolio/IAFC-EFO.png"}
+        , {"name": "Keith & Kinsey Real Estate", "image": "images/portfolio/Keith-Kinsey-Real-Estate.png"}
+        , {"name": "Prosource Payments", "image": "images/portfolio/ProSource.png"}
+        , {"name": "Fitchburg Fire Department", "image": "images/portfolio/FFD-2021-Logo.png"}
+        , {"name": "Great Rock Realty, LLC", "image": "images/portfolio/Great-Rock-Realty-LLC.png"}
+        , {"name": "Metal Decor Studios", "image": "images/portfolio/Metal-Decor-Studios.png"}
+        , {"name": "Rio Fire Department Patch", "image": "images/portfolio/Rio-Fire-Department.png"}
+        , {"name": "Wisconsin State Firefighters Memorial Funeral Guard", "image": "images/portfolio/WSFMFG.png"}
+        , {"name": "Townedge Landscaping Materials", "image": "images/portfolio/Townedge-Landscaping-Materials.png"}
     ]
 }

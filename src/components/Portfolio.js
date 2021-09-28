@@ -5,7 +5,50 @@ import '../css/Portfolio.css';
 
 class Portfolio extends Component {
 
+    constructor() {
+        super();
+        this.portfolio = "";
+
+        
+    }
+
+    componentDidMount() {
+        //console.log('Resume componentDidMount');
+
+        
+    }
+
     render() {
+
+        
+        console.log(this.props);
+
+        if (this.props.resumeData.portfolio) {
+
+            this.portfolio = this.props.resumeData.portfolio.map( (item, index) => {
+                return (
+                
+                    <div key={index} className="col-md-4 col-lg-2 mb-5">
+                        <div className="portfolio-item mx-auto">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-devfecta">{item.name}</div>
+                            </div>
+                            <img className="img-fluid" 
+                                src={item.image}
+                                alt={item.name} 
+                            />
+                        </div>
+                    </div>
+                
+                
+                );
+            });
+
+        }
+
+        
+        
+
         return (
 
             <div className="container-fluid bg-white">
@@ -194,6 +237,19 @@ class Portfolio extends Component {
                             This project gave me an opportunity to learn more about ASP.Net by creating a registration and login process, 
                             along with a process for users to book a stay at his cabin.</p>
                     </article>
+
+                </section>
+
+                <section className="row d-flex align-items-stretch bg-light portfolio" id="portfolio">
+
+                    <h1 className="text-light bg-dark p-3 text-center">Design Work</h1>
+                    <div className="container">
+                        <div className="row justify-content-center">
+
+                            {this.portfolio}
+
+                        </div>
+                    </div>
 
                 </section>
             </div>

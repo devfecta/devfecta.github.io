@@ -82,6 +82,10 @@ section {
   background-color: #fff;
 }
 
+.text-devfecta {
+  color: #003153;
+}
+
 .border-primary {
   border-color: #003153 !important;
 }
