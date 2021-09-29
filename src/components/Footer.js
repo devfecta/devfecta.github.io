@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Footer extends Component {
 
     constructor() {
@@ -13,7 +14,6 @@ class Footer extends Component {
         return (
             <footer className="footer text-light text-center">
                 <span className="container">&copy; {this.currentYear} DevFecta, LLC</span>
-                
             </footer>
         );
     }
