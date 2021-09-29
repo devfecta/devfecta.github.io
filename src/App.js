@@ -11,7 +11,6 @@ import Portfolio from './components/Portfolio';
 import ConfirmSubscription from './components/ConfirmSubscription';
 import TermsWebsiteCarePlan from './components/TermsWebsiteCarePlan';
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './css/App.css';
@@ -24,7 +23,7 @@ class App extends Component {
 			workExperience : []
 		};
     }
-
+ 	
 	componentDidMount() {
 		//console.log('App componentDidMount');
 		fetch('./resumeData.json')
@@ -39,7 +38,10 @@ class App extends Component {
 	}
 
 	render() {
+
 		return (
+
+			
 
 			<Router basename="/">
 				<Header />
