@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import Contact from './components/Contact';
+import ContactThankYou from './components/ContactThankYou';
 
 import Services from './components/Services';
 import Home from './components/Home';
@@ -55,10 +55,10 @@ class App extends Component {
 							<Route path="/portfolio" render={props => (<Portfolio {...props} resumeData={this.state.workExperience} />)} />
 							<Route path="/confirmSubscription" component={ConfirmSubscription} />
 							<Route path="/termsWebsiteCarePlan" component={TermsWebsiteCarePlan} />
-
-							<Route path="/contact" component={Contact} />
+							<Route path="/contact-thank-you" component={ContactThankYou} />							
 						</Switch>
 					</main>
+				
 				<Footer />
 			</Router>
 		);

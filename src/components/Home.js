@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaPhone, FaLinkedin, FaAt, FaFile, FaMapMarkerAlt } from 'react-icons/fa';
 
 import Service from './Service';
-
+import Contact from './Contact';
 import GoogleMap from './GoogleMap';
 
 import '../css/Home.css';
@@ -55,6 +55,8 @@ class Home extends Component {
                                 your web project.</>} />
                     </article>
                 </section>
+
+                <Contact />
 
                 <section id="contactSection" className="row bg-dark d-flex justify-content-center">
                     

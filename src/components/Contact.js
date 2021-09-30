@@ -45,88 +45,88 @@ class Contact extends Component {
         return (
 
             
-<div id='crmWebToEntityForm' className="container-fuild bg-devfecta py-5 position-relative">
-  
-    <form action='https://crm.zoho.com/crm/WebToLeadForm' onSubmit={this.validateForm()} className="container needs-validation" id='WebToLeads2423252000000133009' name='WebToLeads2423252000000133009' method='post' acceptCharset='UTF-8' noValidate>
+            <section id='crmWebToEntityForm' className="container-fluid d-flex py-5">
 
-        <input type='text' style={ { display: 'none' } } name='xnQsjsdp' defaultValue='32792f121f86136964584d7e253db49cc5e980bc7e0f98f581941da240179823' />
-        <input type='hidden' name='zc_gad' id='zc_gad' defaultValue='' />
-        <input type='text' style={ { display: 'none' } } name='xmIwtLD' defaultValue='28825e3ff2e4d6a9bc3b3d891645d2195653d55fe015a8f59bf93bef7bae1eb4' />
-        <input type='text'  style={ { display: 'none' } } name='actionType' defaultValue='TGVhZHM='/>
-        <input type='text' style={ { display: 'none' } } name='returnURL' defaultValue='https&#x3a;&#x2f;&#x2f;www.devfecta.com&#x2f;contact-thank-you' />
-        <input type='text' style={ { display: 'none' } } id='ldeskuid' name='ldeskuid'/>
-        <input type='text' style={ { display: 'none' } } id='LDTuvid' name='LDTuvid'/>
+                <form action='https://crm.zoho.com/crm/WebToLeadForm' onSubmit={this.validateForm()} className="container needs-validation" id='WebToLeads2423252000000133009' name='WebToLeads2423252000000133009' method='post' acceptCharset='UTF-8' noValidate>
 
-        <h2 className="text-white">Contact Us</h2>
+                    <input type='text' style={ { display: 'none' } } name='xnQsjsdp' defaultValue='32792f121f86136964584d7e253db49cc5e980bc7e0f98f581941da240179823' />
+                    <input type='hidden' name='zc_gad' id='zc_gad' defaultValue='' />
+                    <input type='text' style={ { display: 'none' } } name='xmIwtLD' defaultValue='28825e3ff2e4d6a9bc3b3d891645d2195653d55fe015a8f59bf93bef7bae1eb4' />
+                    <input type='text'  style={ { display: 'none' } } name='actionType' defaultValue='TGVhZHM='/>
+                    <input type='text' style={ { display: 'none' } } name='returnURL' defaultValue='https&#x3a;&#x2f;&#x2f;www.devfecta.com&#x2f;contact-thank-you' />
+                    <input type='text' style={ { display: 'none' } } id='ldeskuid' name='ldeskuid'/>
+                    <input type='text' style={ { display: 'none' } } id='LDTuvid' name='LDTuvid'/>
 
-        <div className="row my-3">
-            <label htmlFor='First_Name' className="form-label col-md-2 text-white">First Name</label>
-            <div className="col-md-5 has-validation">
-                <input type='text' className="form-control " id='First_Name' name='First Name' maxLength='40' required />
-                <div className="invalid-feedback">
-                    Please enter your first name.
-                </div>
-            </div>
-        
-            <label htmlFor='Last_Name' className="form-label col-md-1 text-white">Last Name</label>
-            <div className="col-md-4 has-validation">
-                <input type='text' className="form-control" id='Last_Name' name='Last Name' maxLength='80' required />
-                <div className="invalid-feedback">
-                    Please enter your last name.
-                </div>
-            </div>
-        </div>
+                    <h2 className="text-white">Contact Us</h2>
 
-        <div className="row my-3">
-            <label htmlFor='Email' className="form-label col-md-2 text-white">Email</label>
-            <div className="col-md-5 has-validation">
-                <input type='email' className="form-control" placeholder="Example&#x3a; you&#x40;example.com" ftype="email" id='Email' name='Email' maxLength='100' required />
-                <div className="invalid-feedback">
-                    Please enter a valid e-mail address.
-                </div>
-            </div>
-        
-            <label htmlFor='Phone' className="form-label col-md-1 text-white">Phone</label>
-            <div className="col-md-4">
-                <input type='text' className="form-control" placeholder="Example&#x3a; &#x28;333&#x29; 333-3333" id='Phone' name='Phone' maxLength='30' />
-            </div>
-        </div>
+                    <div className="row my-3">
+                        <label htmlFor='First_Name' className="form-label col-md-2 text-white">First Name</label>
+                        <div className="col-md-5 has-validation">
+                            <input type='text' className="form-control " id='First_Name' name='First Name' maxLength='40' required />
+                            <div className="invalid-feedback">
+                                Please enter your first name.
+                            </div>
+                        </div>
+                    
+                        <label htmlFor='Last_Name' className="form-label col-md-1 text-white">Last Name</label>
+                        <div className="col-md-4 has-validation">
+                            <input type='text' className="form-control" id='Last_Name' name='Last Name' maxLength='80' required />
+                            <div className="invalid-feedback">
+                                Please enter your last name.
+                            </div>
+                        </div>
+                    </div>
 
-        <div className="row my-3">
-            <label htmlFor='Company' className="form-label col-md-2 text-white">Company</label>
-            <div className="col-md-5">
-                <input type='text' className="form-control" id='Company' name='Company' maxLength='100'/>
-            </div>
-        </div>
+                    <div className="row my-3">
+                        <label htmlFor='Email' className="form-label col-md-2 text-white">Email</label>
+                        <div className="col-md-5 has-validation">
+                            <input type='email' className="form-control" placeholder="Example&#x3a; you&#x40;example.com" ftype="email" id='Email' name='Email' maxLength='100' required />
+                            <div className="invalid-feedback">
+                                Please enter a valid e-mail address.
+                            </div>
+                        </div>
+                    
+                        <label htmlFor='Phone' className="form-label col-md-1 text-white">Phone</label>
+                        <div className="col-md-4">
+                            <input type='text' className="form-control" placeholder="Example&#x3a; &#x28;333&#x29; 333-3333" id='Phone' name='Phone' maxLength='30' />
+                        </div>
+                    </div>
 
-        <div className="row my-3">
-            <label htmlFor='Description' className="form-label col-md-2 text-white">Questions/Comments</label>
-            <div className="col-md-10">
-                <textarea className="form-control" id='Description' name='Description' required></textarea>
-                <div className="invalid-feedback">
-                    Please enter your questions/comments.
-                </div>
-            </div>
-        </div>
-        
-        <div className="row my-3">
-            <div className="col-md-2"></div>
-            <div className="col-md-10">
-                <label htmlFor='Email_Opt_Out' className="form-check-label text-white">Subscribe To Our Mailing List</label>&nbsp;
-                <input type='checkbox' className="form-check-input" id='Email_Opt_Out' name='Email Opt Out' maxLength='50' />&nbsp;
-            </div>
-        </div>
+                    <div className="row my-3">
+                        <label htmlFor='Company' className="form-label col-md-2 text-white">Company</label>
+                        <div className="col-md-5">
+                            <input type='text' className="form-control" id='Company' name='Company' maxLength='100'/>
+                        </div>
+                    </div>
 
-        <div className="row my-3">
-            <div className="col-md-12 text-end px-2">
-                <input type="submit" id="formsubmit" className="btn btn-light text-devfecta col-md-3 mx-2" value="Submit" title="Submit" />
-                <input type="reset" className="btn btn-secondary col-md-3 mx-2" name="reset" value="Reset" title="Reset" />
-            </div>
-        </div>
+                    <div className="row my-3">
+                        <label htmlFor='Description' className="form-label col-md-2 text-white">Questions/Comments</label>
+                        <div className="col-md-10">
+                            <textarea className="form-control" id='Description' name='Description' required></textarea>
+                            <div className="invalid-feedback">
+                                Please enter your questions/comments.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="row my-3">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-10">
+                            <label htmlFor='Email_Opt_Out' className="form-check-label text-white">Subscribe To Our Mailing List</label>&nbsp;
+                            <input type='checkbox' className="form-check-input" id='Email_Opt_Out' name='Email Opt Out' maxLength='50' />&nbsp;
+                        </div>
+                    </div>
 
-    </form>
+                    <div className="row my-3 text-center">
+                        <div className="col-md-12">
+                            <input type="submit" id="formsubmit" className="btn btn-light text-devfecta col-sm-5 col-md-3 m-2" value="Submit" title="Submit" />
+                            <input type="reset" className="btn btn-secondary col-sm-5 col-md-3 m-2" name="reset" value="Reset" title="Reset" />
+                        </div>
+                    </div>
 
-</div>
+                </form>
+
+            </section>
 
         );
     }
