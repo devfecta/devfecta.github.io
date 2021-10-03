@@ -17,8 +17,8 @@ class Contact extends Component {
 
         zohoContactJavaScript.async = true;
         document.body.appendChild(zohoContactJavaScript);
-    }
 
+    }
 
     validateForm() {
         // Example starter JavaScript for disabling form submissions if there are invalid fields

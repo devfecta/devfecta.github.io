@@ -50,11 +50,11 @@ class App extends Component {
 					<main>
 						<Switch>
 							<Route exact path="/" component={Home} />
-							<Route path="/services" component={Services} />
-							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} />)} />
-							<Route path="/portfolio" render={props => (<Portfolio {...props} resumeData={this.state.workExperience} />)} />
+							<Route path="/services" render={props => (<Services {...props} title={"Services - " + document.title} />)} />
+							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} title={"Resume - " + document.title} />)} />
+							<Route path="/portfolio" render={props => (<Portfolio {...props} resumeData={this.state.workExperience} title={"Portfolio - " + document.title} />)} />
 							<Route path="/confirmSubscription" component={ConfirmSubscription} />
-							<Route path="/termsWebsiteCarePlan" component={TermsWebsiteCarePlan} />
+							<Route path="/termsWebsiteCarePlan" render={props => (<TermsWebsiteCarePlan {...props} title={"Terms and Conditions - " + document.title} />)} />
 							<Route path="/contact-thank-you" component={ContactThankYou} />							
 						</Switch>
 					</main>

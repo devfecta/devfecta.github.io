@@ -7,6 +7,10 @@ import '../css/Services.css';
 
 class Services extends Component {
 
+    componentDidMount() {
+        document.title = this.props.title;
+    }
+
     render() {
 
         const backgroundShape = {

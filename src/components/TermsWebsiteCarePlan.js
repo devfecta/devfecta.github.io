@@ -4,6 +4,10 @@ import '../css/TermsWebsiteCarePlan.css';
 
 class TermsWebsiteCarePlans extends Component {
 
+    componentDidMount() {
+        document.title = document.title.replace(document.title.substr(document.title.indexOf(" -"), document.title.length-1), `'s ${document.querySelector("h1").innerHTML}`);
+    }
+
     render() {
         return (
 

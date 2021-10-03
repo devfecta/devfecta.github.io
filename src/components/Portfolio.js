@@ -8,20 +8,13 @@ class Portfolio extends Component {
     constructor() {
         super();
         this.portfolio = "";
-
-        
     }
 
     componentDidMount() {
-        //console.log('Resume componentDidMount');
-
-        
+        document.title = this.props.title;
     }
 
     render() {
-
-        
-        console.log(this.props);
 
         if (this.props.resumeData.portfolio) {
 
