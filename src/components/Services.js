@@ -47,9 +47,11 @@ class Services extends Component {
                             description={<>
                                 <ul className="fs-6 mx-5 text-start">
                                     <li>Updates &amp; Maintenance</li>
-                                    <li>Security &amp; Backups</li>
-                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Security Scan &amp; 1 Backup</li>
+                                    <li>Search Engine Readability</li>
+                                    <li>Page Speed Test</li>
                                     <li>Website Optimization</li>
+                                    <li>1 Hours of Personalized Support/Month</li>
                                 </ul>
                             </>} 
                             pricing={<>$100/billed monthly</>} 
@@ -63,9 +65,12 @@ class Services extends Component {
                             description={<>
                                 <ul className="fs-6 mx-5 text-start">
                                     <li>Updates &amp; Maintenance</li>
-                                    <li>Security &amp; Backups</li>
-                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Security Scan &amp; 3 Backups</li>
+                                    <li>Search Engine Readability</li>
+                                    <li>Page Speed Test</li>
                                     <li>Website Optimization</li>
+                                    <li>Sitemap Update</li>
+                                    <li>2 Hours of Personalized Support/Month</li>
                                 </ul>
                             </>} 
                             pricing={<>$290/billed quarterly</>} 
@@ -79,9 +84,14 @@ class Services extends Component {
                             description={<>
                                 <ul className="fs-6 mx-5 text-start">
                                     <li>Updates &amp; Maintenance</li>
-                                    <li>Security &amp; Backups</li>
+                                    <li>Security &amp; 6 Backups</li>
                                     <li>Search Engine Optimization (SEO)</li>
+                                    <li>Search Engine Readability</li>
+                                    <li>Page Speed Test</li>
                                     <li>Website Optimization</li>
+                                    <li>Sitemap Update</li>
+                                    <li>Search Engine Performance Report</li>
+                                    <li>3 Hours of Personalized Support/Month</li>
                                 </ul>
                             </>} 
                             pricing={<>$575/billed biannually</>} 
@@ -95,9 +105,14 @@ class Services extends Component {
                             description={<>
                                 <ul className="fs-6 mx-5 text-start">
                                     <li>Updates &amp; Maintenance</li>
-                                    <li>Security &amp; Backups</li>
+                                    <li>Security &amp; 12 Backups</li>
                                     <li>Search Engine Optimization (SEO)</li>
+                                    <li>Search Engine Readability</li>
+                                    <li>Page Speed Test</li>
                                     <li>Website Optimization</li>
+                                    <li>Sitemap Update</li>
+                                    <li>Search Engine Performance Report</li>
+                                    <li>4 Hours of Personalized Support/Month</li>
                                 </ul>
                             </>} 
                             pricing={<>$1100/billed annually</>} 
@@ -150,7 +165,7 @@ class Services extends Component {
                                 <li className="mx-4">Installation of an SEO Plugin
                                     <p>This plugin is used to look for improvements to the website content to make it more search engine friendly.</p>
                                 </li>
-                                <li className="mx-4">Suggest and Implement Content Changes to Currently Existing</li>
+                                <li className="mx-4">Suggest and Implement Content Changes to Currently Existing Website</li>
                             </ul>
                     </article>
                     <article className="col-md-6 text-dark p-5 bg-light bg-transparency bg-light-hover ">
