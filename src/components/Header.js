@@ -19,7 +19,7 @@ class Header extends Component {
                         <Navbar.Collapse className="navbar-collapse collapse" id="navbarSupportedContent">
                             
                             <a className="navbar-brand d-none d-lg-flex align-items-center" href="/">
-                                <img src="images/Devfecta-Logo.png" className="headerLogo" alt="DevFecta" />
+                                <img src="images/Devfecta-Logo.png" width="50" height="50" className="headerLogo" alt="DevFecta" />
                             </a>
                             
                             <Nav className="navbar-nav ml-auto">

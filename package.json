@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "/",
+  "static": "public",
   "dependencies": {
     "@babel/core": ">=7.13.0",
     "@popperjs/core": "^2.10.1",
