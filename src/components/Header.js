@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from "react-bootstrap";
+import DevFectaLogo from "./DevFectaLogo";
 
 import { FaGithub, FaWikipediaW, FaLinkedin, FaAt, FaTerminal, FaFileCode } from 'react-icons/fa';
 
@@ -12,7 +13,7 @@ class Header extends Component {
                 <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar navbar-light bg-light navbar-expand-lg fixed-top">
                     <div className="container">
                          
-                        <a className="navbar-brand d-lg-none d-flex align-items-center" href="/"><img src="images/Devfecta.png" className="headerLogo" alt="DevFecta" /></a>
+                        <a className="navbar-brand d-lg-none d-flex align-items-center" href="/"><DevFectaLogo logoColor="#003153" logoHeight="50" logoWidth="50" /></a>
                         
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         

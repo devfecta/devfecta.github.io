@@ -58,6 +58,17 @@ class Home extends Component {
 
                 <Contact />
 
+                <section className="row bg-white d-flex justify-content-around align-items-center">
+
+                    <h2 className="text-devfecta bg-white p-3 text-center">Affiliates</h2>
+
+                    <div className="col-md-10 pb-5 d-flex justify-content-around align-items-center">
+                        <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/Bluehost.jpg" alt="Bluehost" /></a>
+                        <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/Google-Cloud-Platform.jpg" alt="Google Cloud Platform" /></a>
+                    </div>
+
+                </section>
+
                 <section id="contactSection" className="row bg-dark d-flex justify-content-center">
                     
                     <article className="col-sm-12 col-md-6 py-3 text-light d-flex justify-content-center align-items-center">

@@ -124,7 +124,7 @@ class Services extends Component {
                 <section className="row d-flex justify-items-end align-items-stretch">
                     <article className="col-md-6 text-light p-5 border-bottom border-1 border-light bg-devfecta bg-transparency bg-devfecta-hover">
                         <h3>Updates &amp; Maintenance</h3>
-                        <p>Periodically there are updates released for the core system of WordPress along with the installed theme, and 
+                        <p className="fs-4">Periodically there are updates released for the core system of WordPress along with the installed theme, and 
                             plugins that will require updating due to updates made by the developers. If there haven't been any custom 
                             code changes to either WordPress, the theme, or plugins updates can be done through the WordPress Dashboard. 
                             If there were custom code changes made, it is highly recommended to backup all files and database(s) on the 
@@ -139,7 +139,7 @@ class Services extends Component {
                     </article>
                     <article className="col-md-6 text-dark p-5 border-bottom border-1 border-primary bg-light bg-transparency bg-light-hover">
                         <h3>Security &amp; Backups</h3>
-                        <p>Website hacks are an inevitable and unfortunate part of having a website, and the effects can 
+                        <p className="fs-4">Website hacks are an inevitable and unfortunate part of having a website, and the effects can 
                             vary. So website monitoring, and periodic backups are necessary to have a version of the website to revert 
                             back to that doesn’t contain any of the hacked information.</p>
                             <ul><h4>Security &amp; Backups Deliverables</h4>
@@ -155,7 +155,7 @@ class Services extends Component {
                     </article>
                     <article className="col-md-6 text-light p-5 bg-devfecta bg-transparency bg-devfecta-hover">
                         <h3>Search Engine Optimization (SEO)</h3>
-                        <p>Ranking high in search engine results is a constant struggle given the countless websites on the internet. 
+                        <p className="fs-4">Ranking high in search engine results is a constant struggle given the countless websites on the internet. 
                             DevFecta offers to monitor your website’s search results ranking, and make sure the client’s website is properly 
                             submitted and indexed in the major search engines. Also, DevFecta can make suggestions on the client’s website content 
                             to possibly improve their search results ranking.</p>
@@ -168,7 +168,7 @@ class Services extends Component {
                     </article>
                     <article className="col-md-6 text-dark p-5 bg-light bg-transparency bg-light-hover ">
                         <h3>Website Optimization</h3>
-                        <p>Slow loading websites are not liked by frontend users and search engines. DevFecta can monitor how 
+                        <p className="fs-4">Slow loading websites are not liked by frontend users and search engines. DevFecta can monitor how 
                             fast the client’s website is loading to make sure the frontend users’ experience is enjoyable, and keep search 
                             engines interested in the client’s website by making sure the search engine can efficiently "crawl" their website.</p>
                             <ul><h4>Website Optimization Deliverables</h4>
@@ -227,11 +227,11 @@ class Services extends Component {
                     </article>
 
                     <figure className="col-md-6 text-dark m-0 p-3 bg-white text-center d-flex align-items-center justify-content-center">
-                        <img src="images/Bluehost.jpg" alt="Bluehost" />
+                        <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/Bluehost.jpg" alt="Bluehost" /></a>
                     </figure>
 
                     <figure className="col-md-6 text-dark m-0 p-3 bg-white text-center d-flex align-items-center justify-content-center">
-                        <img src="images/GCP.jpg" alt="Google Cloud Platform" />
+                        <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/GCP.jpg" alt="Google Cloud Platform" /></a>
                     </figure>
 
                     <article className="col-md-6 text-dark p-5 bg-white">

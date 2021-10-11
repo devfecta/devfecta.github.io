@@ -41,6 +41,10 @@ main a[target="_blank"]:after {
   content: " \1F517";
 }
 
+.hideLinkIcon:after {
+  content: "" !important;
+}
+
 .badge-devfecta {
   color: #fff;
   background-color: #003153;
@@ -126,11 +130,13 @@ main {
   background-color: #003153;
 }
 
-.zsiq_flt_rel, .zsiq_seasonal .st2 {
+.zsiq_flt_rel,
+.zsiq_seasonal .st2 {
   background-color: #000306 !important;
 }
-.zsiq_flt_rel, .zsiq_seasonal .st2 { 
-  background-color:#00528C !important;
+.zsiq_flt_rel,
+.zsiq_seasonal .st2 {
+  background-color: #00528c !important;
 }
 
 @media (max-width: 991.97px) {
