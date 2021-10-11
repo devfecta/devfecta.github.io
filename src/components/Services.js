@@ -119,8 +119,6 @@ class Services extends Component {
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Year" />
                     </article>
 
-                    
-                    
                 </section>
 
                 <section className="row d-flex justify-items-end align-items-stretch">
@@ -187,9 +185,9 @@ class Services extends Component {
                     </article>
                 </section>
 
-                <section className="container-fluid bg-light">
-                    <article className="container text-dark py-5">
-                        <h3>Custom Websites</h3>
+                <section className="row bg-light p-0">
+                    <article className="container text-dark p-5">
+                        <h2>Custom Websites</h2>
                         <p className="fs-4">Having a custom website is great for clients who are looking for a website that offers 
                         specific functionality to their frontend users. However, with every technology there comes updates for the scripting 
                         language and database. DevFecta can monitor and make any necessary code and/or database changes to make sure the 
@@ -197,6 +195,56 @@ class Services extends Component {
                         <a className="btn btn-primary" href="mailto:devfecta@gmail.com">Contact DevFecta for an Estimate</a>
                     </article>
                 </section>
+
+       
+
+                <section className="row d-flex justify-items-between align-items-stretch bg-devfecta">
+
+                    <h1 className="text-light p-3 text-center">Additional Services</h1>
+
+                    <figure className="col-md-6 text-dark m-0 p-3 bg-white text-center d-flex align-items-center justify-content-center">
+                        <img src="images/DevFecta-GCP.jpg" alt="DevFecta and Google Cloud Platform" />
+                    </figure>
+
+                    <article className="col-md-6 text-dark p-5 bg-white">
+                        <h2>DevFecta + GCP</h2>
+                        <p className="fs-4">When your web hosting needs require a little more flexibility than the larger companies can offer. 
+                        DevFecta offers the perfect solution utilizing the Google Cloud Platform. Contact DevFecta for a consultation and pricing.</p>
+                        <a className="btn btn-primary" href="mailto:devfecta@gmail.com">Contact DevFecta for an Estimate</a>
+                    </article>
+
+                    <article className="col-md-6 text-dark p-5 bg-white">
+                        <h2>Bluehost</h2>
+                        <p className="fs-4">As an affiliate of Bluehost, DevFecta offers our clients Bluehost's hosting service as an option to host 
+                        their website. Bluehost is a leading web solutions services provider founded in 2003, Bluehost has continually innovated new 
+                        ways to deliver on their mission: to empower people to fully harness the web. Based in Orem, Utah, Bluehost provides comprehensive 
+                        tools to millions of users throughout the world so anyone, novice or pro, can get on the web and thrive. From their servers to their 
+                        internal tools to the scripts their customers rely on, Bluehost is built on open source. To give back to the online community 
+                        Bluehost works hand-in-hand with developers to leverage their resources and expertise towards helping their software thrive. 
+                        With a development team experienced in optimizing over 80 open source platforms, Bluehost is the world's leading solution for 
+                        open source implementation and development.</p>
+                        <a className="btn btn-primary" href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer">Sign-up for Bluehost</a>
+                    </article>
+
+                    <figure className="col-md-6 text-dark m-0 p-3 bg-white text-center d-flex align-items-center justify-content-center">
+                        <img src="images/Bluehost.jpg" alt="Bluehost" />
+                    </figure>
+
+                    <figure className="col-md-6 text-dark m-0 p-3 bg-white text-center d-flex align-items-center justify-content-center">
+                        <img src="images/GCP.jpg" alt="Google Cloud Platform" />
+                    </figure>
+
+                    <article className="col-md-6 text-dark p-5 bg-white">
+                        <h2>Google Cloud Platform</h2>
+                        <p className="fs-4">DevFecta refers to Google Cloud as an option to provide infrastructure as a service, platform as a service, 
+                        and server-less computing environments. DevFecta uses Google Cloud as a hosting option for its clients, but if you'd like your own 
+                        account use this product link to get started with the Google Cloud's free tier and you'll get additional credits added to the free 
+                        credits Google already offers you.</p>
+                        <a className="btn btn-primary" href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer">Sign-up for Google Cloud Platform</a>
+                    </article>
+
+                </section>
+
             </div>
         );
     }

@@ -13,7 +13,7 @@ class Footer extends Component {
         
         return (
             <footer className="footer text-light text-center">
-                <span className="container">&copy; {this.currentYear} DevFecta, LLC</span>
+                <span className="container">&copy; {this.currentYear} DevFecta, LLC - Madison, WI</span>
             </footer>
         );
     }

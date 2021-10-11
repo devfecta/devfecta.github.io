@@ -32,7 +32,7 @@ a.nav-link {
   color: #003153;
 }
 
-main a[target="_blank"] {
+main a {
   font-style: normal;
   font-weight: bold;
 }
