@@ -30,6 +30,9 @@ class Home extends Component {
                 </section>
 
                 <section className="row d-flex justify-content-center pb-2">
+
+                <h1 className="text-light p-3 text-center">Web Development Services</h1>
+
                     <article className="col-sm-10 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
                         <Service 
                             title="Development" 
