@@ -65,9 +65,13 @@ class Home extends Component {
 
                     <h2 className="text-devfecta bg-white p-3 text-center">Affiliates</h2>
 
-                    <div className="col-md-10 pb-5 d-flex justify-content-around align-items-center">
-                        <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/Bluehost.jpg" alt="Bluehost" /></a>
-                        <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="hideLinkIcon"><img src="images/Google-Cloud-Platform.jpg" alt="Google Cloud Platform" /></a>
+                    <div className="row pb-3 d-flex justify-content-around align-items-center">
+                        <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="col-sm-12 col-md-3 pb-3 hideLinkIcon">
+                            <img src="images/Bluehost.jpg" className="img-fluid" alt="Bluehost" />
+                        </a>
+                        <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="col-sm-12 col-md-3 pb-3 hideLinkIcon">
+                            <img src="images/Google-Cloud-Platform.jpg" className="img-fluid" alt="Google Cloud Platform" />
+                        </a>
                     </div>
 
                 </section>

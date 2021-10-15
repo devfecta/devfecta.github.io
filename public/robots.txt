@@ -4,5 +4,4 @@ Allow: /services/
 Allow: /porfolio/
 Allow: /resume/
 Allow: /static/
-Disallow: /css/
-Disallow: /fonts/
+Disallow: /static/css/
