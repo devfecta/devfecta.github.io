@@ -119,7 +119,7 @@ class Contact extends Component {
 
                     <div className="row my-3 text-center">
                         <div className="col-md-12">
-                            <input type="submit" id="formsubmit" className="btn btn-light text-devfecta col-sm-5 col-md-3 m-2" value="Submit" title="Submit" />
+                            <input type="submit" id="formsubmit" className="btn btn-primary col-sm-5 col-md-3 m-2" value="Submit" title="Submit" />
                             <input type="reset" className="btn btn-secondary col-sm-5 col-md-3 m-2" name="reset" value="Reset" title="Reset" />
                         </div>
                     </div>
