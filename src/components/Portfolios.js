@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { FaWordpress } from 'react-icons/fa';
+import Portfolio from './portfolio/Portfolio';
 
 import '../css/Portfolio.css';
 
-class Portfolio extends Component {
+class Portfolios extends Component {
 
     constructor() {
         super();
@@ -29,6 +30,7 @@ class Portfolio extends Component {
                             <img className="img-fluid" 
                                 src={item.image}
                                 alt={item.name} 
+                                loading="lazy"
                             />
                         </div>
                     </div>
@@ -48,86 +50,26 @@ class Portfolio extends Component {
                 <section className="row d-flex align-items-stretch bg-dark">
 
                     <h1 className="text-light p-3 text-center"><FaWordpress /> WordPress Development</h1>
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Prosource</h2>
-                        <a href="https://prosourcepayments.com" target="_blank" rel="noopener noreferrer">prosourcepayments.com</a>
-                        <p>Prosource is a WordPress project that in addition to developing a WordPress website I've also setup the hosting of 
-                            the website on Google Cloud Platform (GCP). This invovled the creation and configuration of 2 Compute Engines, one to 
-                            handle Apache and PHP, and the other to handle MySQL. Also, I had to reconfigure the domain to point to the server and 
-                            install an SSL certificate.</p>
-                    </article>
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>First, Respond Well</h2>
-                        <a href="https://firstrespondwell.org" target="_blank" rel="noopener noreferrer">firstrespondwell.org</a>
-                        <p>First, Respond Well is a Wordpress project that involves the setup of hosting and email service on Bluehost.</p>
-                    </article>
+                    <Portfolio.Prosource classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>First Due Construction</h2>
-                        <a href="https://firstdueconstructionllc.com" target="_blank" rel="noopener noreferrer">firstdueconstructionllc.com</a>
-                        <p>First Due Construction is starting off as a single page Wordpress project that involves the setup of hosting and email service on Bluehost.
-                            The owner just wanted to have a place for potential clients to find him on the web, and answer a questionaire he created.
-                        </p>
-                    </article>
+                    <Portfolio.FirstRespondWell classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Metal Decor Studios</h2>
-                        <a href="https://metaldecorstudios.com" target="_blank" rel="noopener noreferrer">metaldecorstudios.com</a>
-                        <p>The development for Metal Decor Studios started off fairly simple with collecting information on what they would 
-                            like on the website, and setting up WordPress and installing plugins is fairly easy. However, the learning came 
-                            in when I had to integrate PayPal with the WooCommerce plugin, and figuring out how taxes and shipping costs work 
-                            in WooCommerce was a little bit of a challenge because the products he sells come in a variety of weights and sizes. 
-                            So this issue really wasn’t a development issue, but more of a business decision and setting up a variety of shipping 
-                            methods. Another learning experience that came out of this was memory usage on shared hosting.</p>
-                    </article>
+                    <Portfolio.FirstDueConstruction classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Alt's Operation</h2>
-                        <a href="https://www.altsoperation.com" target="_blank" rel="noopener noreferrer">altsoperation.com</a>
-                        <p>Alt's Operation is a WordPress project that involved the setup of a hosting and email service on GoDaddy.</p>
-                    </article>
+                    <Portfolio.MetalDecorStudios classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>South Central Regional Trauma Advisory Council</h2>
-                        <a href="https://www.scrtac.org" target="_blank" rel="noopener noreferrer">scrtac.org</a>
-                        <p>SCRTAC was a WordPress project that involved me setting up the client with a GoDaddy account and installing WordPress 
-                            on their hosting service. Also, I set them up with a WordPress theme and the plugins they needed to share documents 
-                            and sell tickets to their annual conference. For them to sell the tickets I had to set up the WooCommerce plugin 
-                            with the additional WooCommerce Box Office plugin, and integrate WooCommerce with their PayPal account.</p>
-                    </article>
-                    
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>South Central Wisconsin Healthcare Emergency Readiness Coalition</h2>
-                        <a href="http://www.scwiherc.org" target="_blank" rel="noopener noreferrer">scwiherc.org</a>
-                        <p>SCWIHERC was a WordPress project that involved me setting up the client with a GoDaddy account and installing WordPress 
-                            on their hosting service. I also set them up with a WordPress theme and the plugins they needed to share documents, 
-                            display their Google calendar, manage users. In addition to the WordPress setup, I helped them setup e-mail addresses, 
-                            and a year later I helped them switch their domain from southcentralhcc.org to scwiherc.org.</p>
-                    </article>
+                    <Portfolio.AltsOperation classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Townedge</h2>
-                        <a href="https://townedgematerials.com" target="_blank" rel="noopener noreferrer">townedgematerials.com</a>
-                        <p>Townedge was a quick WordPress project where the client just wanted to display the landscaping supplies he sells. Since 
-                            he has worked with me in the past, I just had to setup the domain name under his current GoDaddy account and setup WordPress. 
-                            Also, I created a custom shortcode that calculates how many yards of material is need for a given space.
-                            <a href="https://townedgematerials.com/calculators/" target="_blank" rel="noopener noreferrer"> townedgematerials.com/calculators/</a></p>
-                    </article>
+                    <Portfolio.SCRTAC classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Monkeyshines</h2>
-                        <a href="http://www.monkeyshinesbarandgrill.com" target="_blank" rel="noopener noreferrer">monkeyshinesbarandgrill.com</a>
-                        <p>Monkeyshines wanted to just display their menu and events they have at the bar. So this project involved the setup of a 
-                            GoDaddy account, installation of WordPress with a theme and plugins.</p>
-                    </article>
+                    <Portfolio.SCWIHERC classes="col-md-6" />
 
-                    <article className="portfolio-article col-md-6 p-5">
-                        <h2>Kinergetics</h2>
-                        <a href="https://www.kinergetics.net" target="_blank" rel="noopener noreferrer">kinergetics.net</a>
-                        <p>Kinergetics just wanted to have a presence on the web. The client already had a hosting service through Hostway. So this 
-                            project only involved the installation of WordPress with a theme and plugins.</p>
-                    </article>
+                    <Portfolio.Townedge classes="col-md-6" />
+
+                    <Portfolio.Monkeyshines classes="col-md-6" />
+
+                    <Portfolio.Kinergetics classes="col-md-6" />
 
                 </section>
 
@@ -177,7 +119,7 @@ class Portfolio extends Component {
                 <section className="row d-flex align-items-stretch bg-dark">
 
                     <h1 className="text-light p-3 text-center">Consulting Work</h1>
-                    <p className="text-light text-center">I do perform more consulting work for clients listed above and below, as needed.</p>
+                    <p className="text-light text-center">DevFecta does perform more consulting work for clients listed above and below, as needed.</p>
                     <article className="portfolio-article col-md-6 p-5">
                         <h2>Sunset Yarn</h2>
                         <p className="caption">(WordPress &amp; Square Consulting)</p>
@@ -251,4 +193,4 @@ class Portfolio extends Component {
     }
 }
 
-export default Portfolio;
+export default Portfolios;

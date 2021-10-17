@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Service extends Component {
+class Artwork extends Component {
 
     render() {
 
         return (
             <div className="card serviceCard m-2">
                 <div className="card-body">
-                    <h3 className="card-title text-devfecta">{this.props.title}</h3>
+                    <h3 className="card-title">{this.props.title}</h3>
                     <p className="card-text">{this.props.description}</p>
                 </div>
             </div>
@@ -15,4 +15,4 @@ class Service extends Component {
     }
 }
 
-export default Service;
+export default Artwork;

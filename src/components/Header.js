@@ -6,7 +6,11 @@ import { FaGithub, FaWikipediaW, FaLinkedin, FaAt, FaTerminal, FaFileCode } from
 
 class Header extends Component {
 
+    
+
     render() {
+
+        
 
         return (
             <header  className="bg-light">
@@ -35,6 +39,8 @@ class Header extends Component {
                         </Navbar.Collapse>
                     </div>
                 </Navbar>
+
+                
             </header>
         );
     }

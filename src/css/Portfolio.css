@@ -7,7 +7,7 @@
   
 }
 
-.portfolio-article:nth-child(3n + 0) {
+.portfolio-article:nth-child(3n + 1) {
   color: #000;
   background-color: #fff;
 }
@@ -16,7 +16,7 @@
   
 }
 
-.portfolio-article:nth-child(3n + 1) {
+.portfolio-article:nth-child(3n + 0) {
   color: #fff;
   background-color: #003153;
 }

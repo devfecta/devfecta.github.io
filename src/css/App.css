@@ -95,7 +95,7 @@ section {
 }
 
 .text-devfecta {
-  color: #003153;
+  color: #003153 !important;
 }
 
 .border-primary {
