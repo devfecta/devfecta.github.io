@@ -187,7 +187,7 @@ class Services extends Component {
 
                 <section className="row bg-light p-0">
                     <article className="container col-md-11 text-dark p-5">
-                        <h2>Custom Web Development</h2>
+                        <h2 className="text-devfecta">Custom Web Development</h2>
                         <p className="fs-4">Having a custom website is great for clients who are looking for a website that offers 
                         specific functionality to their frontend users. However, with every technology there comes updates for the scripting 
                         language and database. DevFecta can monitor and make any necessary code and/or database changes to make sure the 
