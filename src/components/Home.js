@@ -30,6 +30,9 @@ class Home extends Component {
                 </section>
 
                 <section className="row d-flex justify-content-center pb-2">
+
+                <h1 className="text-light p-3 text-center">Web Development Services</h1>
+
                     <article className="col-sm-10 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
                         <Service 
                             title="Development" 
@@ -61,9 +64,22 @@ class Home extends Component {
                 <section className="row bg-white d-flex justify-content-around align-items-center">
 
                     <h2 className="text-devfecta bg-white p-3 text-center">Affiliates</h2>
+<<<<<<< HEAD
                     <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="col-md-6 text-center hideLinkIcon"><img src="images/Bluehost.jpg" className="img-fluid pb-5" alt="Bluehost" /></a>
                     <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="col-md-6 text-center hideLinkIcon"><img src="images/Google-Cloud-Platform.jpg" className="img-fluid pb-5" alt="Google Cloud Platform" /></a>
                     
+=======
+
+                    <div className="row pb-3 d-flex justify-content-around align-items-center">
+                        <a href="https://www.bluehost.com/track/devfecta/" target="_blank" rel="noopener noreferrer" className="col-sm-12 col-md-3 pb-3 hideLinkIcon">
+                            <img src="images/Bluehost.jpg" className="img-fluid" alt="Bluehost" />
+                        </a>
+                        <a href="https://gcpsignup.page.link/2W51" target="_blank" rel="noopener noreferrer" className="col-sm-12 col-md-3 pb-3 hideLinkIcon">
+                            <img src="images/Google-Cloud-Platform.jpg" className="img-fluid" alt="Google Cloud Platform" />
+                        </a>
+                    </div>
+
+>>>>>>> f7c9632ab3286c23800adb8b0a7c3377daf456be
                 </section>
 
                 <section id="contactSection" className="row bg-devfecta d-flex justify-content-center">

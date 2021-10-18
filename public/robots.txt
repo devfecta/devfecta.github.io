@@ -1,8 +1,4 @@
 Sitemap: https://devfecta.com/sitemap.xml
 User-agent: *
-Allow: /services/
-Allow: /porfolio/
-Allow: /resume/
 Allow: /static/
-Disallow: /css/
-Disallow: /fonts/
+Disallow: /static/css/

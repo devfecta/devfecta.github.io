@@ -12,6 +12,7 @@ class DevFectaLogo extends Component {
                 width={ (this.props.logoWidth) ? this.props.logoWidth : "100%" } 
                 viewBox="0 0 200 200" 
                 preserveAspectRatio="none"
+                className="headerLogo"
             >
                 <path fill={ (this.props.logoColor) ? this.props.logoColor : "#003153" } d="M99.999,0C44.772,0,0,44.773,0,100c0,55.229,44.772,100,99.999,100C155.228,200,200,155.229,200,100
                     C200,44.773,155.228,0,99.999,0z M50.733,15.848c7.611-4.58,15.855-8.121,24.63-10.508c4.741,31.533,17.916,31.24,17.916,31.24

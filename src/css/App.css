@@ -1,3 +1,8 @@
+/*
+Prussian Blue: #003153
+Orange: #ff6000
+
+*/
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +26,7 @@ h6 {
 }
 
 a {
+  color: #ff6000;
   text-decoration: none;
 }
 
@@ -29,12 +35,20 @@ a.nav-link {
 }
 
 .link-primary {
-  color: #003153;
+  color: #ff6000;
+}
+
+main {
+  position: relative;
+  padding-top: 4.8em;
+  min-height: calc(100vh - 3.5em);
+  background-color: #003153;
 }
 
 main a {
   font-style: normal;
   font-weight: bold;
+  color: #ff6000;
 }
 
 main a[target="_blank"]:after {
@@ -69,12 +83,6 @@ header {
   z-index: 1000;
 }
 
-main {
-  position: relative;
-  padding-top: 4.8em;
-  min-height: calc(100vh - 3.5em);
-}
-
 section {
   position: relative;
 }
@@ -87,7 +95,7 @@ section {
 }
 
 .text-devfecta {
-  color: #003153;
+  color: #003153 !important;
 }
 
 .border-primary {
@@ -95,12 +103,13 @@ section {
 }
 
 .btn-primary {
-  background-color: #003153;
-  border: #003153 solid 1px;
+  background-color: #ff6000;
+  border: #ff6000 solid 1px;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #001e33;
+  background-color: #003153;
   border: #003153 solid 1px;
 }
 
@@ -124,10 +133,6 @@ footer {
 
 .App {
   text-align: center;
-}
-
-main {
-  background-color: #003153;
 }
 
 .zsiq_flt_rel,
