@@ -56,7 +56,7 @@ class App extends Component {
 							<Route path="/termsWebsiteCarePlan" render={props => (<TermsWebsiteCarePlan {...props} title={"Terms and Conditions - " + document.title} />)} />
 							<Route path="/contact-thank-you" component={ContactThankYou} />
 
-							<Route path="/portfolio/prosource" component={Portfolio.Prosource} />
+							<Route path="/portfolio/prosource" render={props => (<Portfolio.Prosource {...props} technologies={this.state.workExperience.technologies} />)} />
 							<Route path="/portfolio/first-response-well" component={Portfolio.FirstRespondWell} />
 							<Route path="/portfolio/first-due-construction" component={Portfolio.FirstDueConstruction} />
 							<Route path="/portfolio/metal-decor-studios" component={Portfolio.MetalDecorStudios} />

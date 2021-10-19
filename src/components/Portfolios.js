@@ -51,25 +51,25 @@ class Portfolios extends Component {
 
                     <h1 className="text-light p-3 text-center"><FaWordpress /> WordPress Development</h1>
 
-                    <Portfolio.Prosource classes="col-md-6" />
+                    <Portfolio.Prosource classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.FirstRespondWell classes="col-md-6" />
+                    <Portfolio.FirstRespondWell classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.FirstDueConstruction classes="col-md-6" />
+                    <Portfolio.FirstDueConstruction classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.MetalDecorStudios classes="col-md-6" />
+                    <Portfolio.MetalDecorStudios classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.AltsOperation classes="col-md-6" />
+                    <Portfolio.AltsOperation classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.SCRTAC classes="col-md-6" />
+                    <Portfolio.SCRTAC classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.SCWIHERC classes="col-md-6" />
+                    <Portfolio.SCWIHERC classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.Townedge classes="col-md-6" />
+                    <Portfolio.Townedge classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.Monkeyshines classes="col-md-6" />
+                    <Portfolio.Monkeyshines classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
-                    <Portfolio.Kinergetics classes="col-md-6" />
+                    <Portfolio.Kinergetics classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
                 </section>
 

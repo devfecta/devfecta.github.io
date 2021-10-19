@@ -5,6 +5,24 @@ class Website extends Component {
 
     render() {
 
+        let technologiesUsed = "";
+
+        if (this.props.technologies) {
+            console.log(this.props.technologies);
+            
+            technologiesUsed = this.props.technologies.map( (technology, index) => {
+
+                console.log(technology);
+                return (
+                    <li key={index} className="list-group-item border-0 bg-transparent">
+                        <a href={technology.wiki} target="_blank" rel="noopener noreferrer">
+                            {technology.description}
+                        </a>
+                    </li>
+                )
+            })
+        }
+
         let classes = (this.props.componentClasses) ? this.props.componentClasses : "col-md vh-100";
 
         return (
@@ -17,6 +35,11 @@ class Website extends Component {
                 <h2>{this.props.title}</h2>
                 <a href={this.props.url} target="_blank" rel="noopener noreferrer">{this.props.urlText}</a>
                 {this.props.description}
+
+                <p className="h5">Technologies Used</p>
+                <ul className="list-group bg-transparent">
+                    {technologiesUsed}
+                </ul>
             </article>
         );
     }

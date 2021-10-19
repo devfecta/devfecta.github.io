@@ -5,7 +5,32 @@ const Portfolio = ({item}) => item;
 
 Portfolio.Prosource = class Prosource extends Component {
 
+    
+
     render() {
+
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                    case "gcp":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Prosource" 
@@ -18,6 +43,7 @@ Portfolio.Prosource = class Prosource extends Component {
                 url="https://prosourcepayments.com" 
                 urlText="prosourcepayments.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }

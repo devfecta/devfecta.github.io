@@ -1,6 +1,7 @@
 /*
 Prussian Blue: #003153
 Orange: #ff6000
+Green: #007841
 
 */
 body {
@@ -26,7 +27,7 @@ h6 {
 }
 
 a {
-  color: #ff6000;
+  color: #007841;
   text-decoration: none;
 }
 
@@ -35,7 +36,7 @@ a.nav-link {
 }
 
 .link-primary {
-  color: #ff6000;
+  color: #007841;
 }
 
 main {
@@ -48,7 +49,7 @@ main {
 main a {
   font-style: normal;
   font-weight: bold;
-  color: #ff6000;
+  color: #007841;
 }
 
 main a[target="_blank"]:after {
@@ -103,8 +104,8 @@ section {
 }
 
 .btn-primary {
-  background-color: #ff6000;
-  border: #ff6000 solid 1px;
+  background-color: #007841;
+  border: #007841 solid 1px;
   font-weight: bold;
 }
 
