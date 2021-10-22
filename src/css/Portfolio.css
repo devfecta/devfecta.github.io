@@ -1,6 +1,6 @@
 .portfolio-article:nth-child(3n - 1) {
-  color: #000;
-  background-color: #ddd;
+  color: #fff;
+  background-color: #127199;
 }
 
 .portfolio-article:nth-child(3n - 1) a {

@@ -1,7 +1,8 @@
 /*
 Prussian Blue: #003153
 Orange: #ff6000
-Green: #007841
+Green: #203731
+Packer Yellow: #ffb612
 
 */
 body {
@@ -27,8 +28,11 @@ h6 {
 }
 
 a {
-  color: #007841;
+  color: #ffb612;
   text-decoration: none;
+}
+a:hover {
+  color: #003153;
 }
 
 a.nav-link {
@@ -36,7 +40,11 @@ a.nav-link {
 }
 
 .link-primary {
-  color: #007841;
+  color: #ffb612;
+}
+
+.link-primary:hover {
+  color: #003153;
 }
 
 main {
@@ -49,7 +57,7 @@ main {
 main a {
   font-style: normal;
   font-weight: bold;
-  color: #007841;
+  color: #cf8f00;
 }
 
 main a[target="_blank"]:after {
@@ -104,8 +112,8 @@ section {
 }
 
 .btn-primary {
-  background-color: #007841;
-  border: #007841 solid 1px;
+  background-color: #ffb612;
+  border: #ffb612 solid 1px;
   font-weight: bold;
 }
 

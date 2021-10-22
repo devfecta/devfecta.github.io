@@ -57,15 +57,20 @@ class App extends Component {
 							<Route path="/contact-thank-you" component={ContactThankYou} />
 
 							<Route path="/portfolio/prosource" render={props => (<Portfolio.Prosource {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/first-response-well" component={Portfolio.FirstRespondWell} />
-							<Route path="/portfolio/first-due-construction" component={Portfolio.FirstDueConstruction} />
-							<Route path="/portfolio/metal-decor-studios" component={Portfolio.MetalDecorStudios} />
-							<Route path="/portfolio/alts-operation" component={Portfolio.AltsOperation} />
-							<Route path="/portfolio/scrtac" component={Portfolio.SCRTAC} />
-							<Route path="/portfolio/scwiherc" component={Portfolio.SCWIHERC} />
-							<Route path="/portfolio/townedge" component={Portfolio.Townedge} />
-							<Route path="/portfolio/monkeyshines" component={Portfolio.Monkeyshines} />
-							<Route path="/portfolio/kinergetics" component={Portfolio.Kinergetics} />
+							<Route path="/portfolio/first-response-well" render={props => (<Portfolio.FirstRespondWell {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/first-due-construction" render={props => (<Portfolio.FirstDueConstruction {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/metal-decor-studios" render={props => (<Portfolio.MetalDecorStudios {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/alts-operation" render={props => (<Portfolio.AltsOperation {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/scrtac" render={props => (<Portfolio.Scrtac {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/scwiherc" render={props => (<Portfolio.Scwiherc {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/townedge" render={props => (<Portfolio.Townedge {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/monkeyshines" render={props => (<Portfolio.Monkeyshines {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/kinergetics" render={props => (<Portfolio.Kinergetics {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/wsfia" render={props => (<Portfolio.Wsfia {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/kinergetics-energy-matrix" render={props => (<Portfolio.KinergeticsEnergyMatrix {...props} technologies={this.state.workExperience.technologies} />)} />
+							<Route path="/portfolio/devfecta" render={props => (<Portfolio.DevFecta {...props} technologies={this.state.workExperience.technologies} />)} />
+							
+							
 												
 						</Switch>
 					</main>
