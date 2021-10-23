@@ -153,6 +153,12 @@ footer {
   background-color: #00528c !important;
 }
 
+@media (max-width: 1080px) {
+  .portfolio-img {
+    display: none;
+  }
+}
+
 @media (max-width: 991.97px) {
   body {
     background-color: #003153 !important;
