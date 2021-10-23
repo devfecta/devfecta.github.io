@@ -76,7 +76,7 @@ class Home extends Component {
 
                 </section>
 
-                <section id="contactSection" className="row bg-dark d-flex justify-content-center">
+                <section id="contactSection" className="row bg-devfecta d-flex justify-content-center">
                     
                     <article className="col-sm-12 col-md-6 py-3 text-light d-flex justify-content-center align-items-center">
                         <address style={{ listStyleType: "none", lineHeight: "2em" }}>

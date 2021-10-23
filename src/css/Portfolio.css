@@ -1,10 +1,9 @@
 .portfolio-article:nth-child(3n - 1) {
-  color: #000;
-  background-color: #ddd;
+  color: #fff;
+  background-color: #127199;
 }
 
 .portfolio-article:nth-child(3n - 1) a {
-  
 }
 
 .portfolio-article:nth-child(3n + 1) {
@@ -13,7 +12,6 @@
 }
 
 .portfolio-article:nth-child(3n + 0) a {
-  
 }
 
 .portfolio-article:nth-child(3n + 0) {
@@ -22,7 +20,6 @@
 }
 
 .portfolio-article:nth-child(3n + 1) a {
-  
 }
 
 .portfolio-article:hover {
@@ -32,7 +29,7 @@
 }
 
 .portfolio-article:hover a {
-  color: #ff6000;
+  color: #fff;
   transition: all 500ms linear;
 }
 

@@ -1,6 +1,8 @@
 /*
 Prussian Blue: #003153
 Orange: #ff6000
+Green: #203731
+Packer Yellow: #ffb612
 
 */
 body {
@@ -26,8 +28,11 @@ h6 {
 }
 
 a {
-  color: #ff6000;
+  color: #ffb612;
   text-decoration: none;
+}
+a:hover {
+  color: #003153;
 }
 
 a.nav-link {
@@ -35,7 +40,11 @@ a.nav-link {
 }
 
 .link-primary {
-  color: #ff6000;
+  color: #ffb612;
+}
+
+.link-primary:hover {
+  color: #003153;
 }
 
 main {
@@ -48,7 +57,7 @@ main {
 main a {
   font-style: normal;
   font-weight: bold;
-  color: #ff6000;
+  color: #cf8f00;
 }
 
 main a[target="_blank"]:after {
@@ -103,8 +112,8 @@ section {
 }
 
 .btn-primary {
-  background-color: #ff6000;
-  border: #ff6000 solid 1px;
+  background-color: #ffb612;
+  border: #ffb612 solid 1px;
   font-weight: bold;
 }
 
@@ -142,6 +151,12 @@ footer {
 .zsiq_flt_rel,
 .zsiq_seasonal .st2 {
   background-color: #00528c !important;
+}
+
+@media (max-width: 1080px) {
+  .portfolio-img {
+    display: none;
+  }
 }
 
 @media (max-width: 991.97px) {

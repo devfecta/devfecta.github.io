@@ -5,7 +5,35 @@ const Portfolio = ({item}) => item;
 
 Portfolio.Prosource = class Prosource extends Component {
 
+    componentDidMount() {
+        document.title = this.props.title;
+    }
+    
+
     render() {
+
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php8":
+                    case "mysql":
+                    case "gcp":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Prosource" 
@@ -18,6 +46,7 @@ Portfolio.Prosource = class Prosource extends Component {
                 url="https://prosourcepayments.com" 
                 urlText="prosourcepayments.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -26,6 +55,27 @@ Portfolio.Prosource = class Prosource extends Component {
 Portfolio.FirstRespondWell = class FirstRespondWell extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="First, Respond Well" 
@@ -35,6 +85,7 @@ Portfolio.FirstRespondWell = class FirstRespondWell extends Component {
                 url="https://firstrespondwell.org" 
                 urlText="firstrespondwell.org" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />            
         );
     }
@@ -43,6 +94,27 @@ Portfolio.FirstRespondWell = class FirstRespondWell extends Component {
 Portfolio.FirstDueConstruction = class FirstDueConstruction extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="First Due Construction" 
@@ -54,6 +126,7 @@ Portfolio.FirstDueConstruction = class FirstDueConstruction extends Component {
                 url="https://firstdueconstructionllc.com" 
                 urlText="firstdueconstructionllc.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -62,6 +135,27 @@ Portfolio.FirstDueConstruction = class FirstDueConstruction extends Component {
 Portfolio.MetalDecorStudios = class MetalDecorStudios extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Metal Decor Studios" 
@@ -76,6 +170,7 @@ Portfolio.MetalDecorStudios = class MetalDecorStudios extends Component {
                 url="https://metaldecorstudios.com" 
                 urlText="metaldecorstudios.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -84,6 +179,27 @@ Portfolio.MetalDecorStudios = class MetalDecorStudios extends Component {
 Portfolio.AltsOperation = class AltsOperation extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Alt's Operation" 
@@ -93,14 +209,36 @@ Portfolio.AltsOperation = class AltsOperation extends Component {
                 url="https://altsoperation.com" 
                 urlText="altsoperation.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
 }
 
-Portfolio.SCRTAC = class SCRTAC extends Component {
+Portfolio.Scrtac = class Scrtac extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="South Central Regional Trauma Advisory Council" 
@@ -113,14 +251,36 @@ Portfolio.SCRTAC = class SCRTAC extends Component {
                 url="https://scrtac.org" 
                 urlText="scrtac.org" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
 }
 
-Portfolio.SCWIHERC = class SCWIHERC extends Component {
+Portfolio.Scwiherc = class Scwiherc extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="South Central Wisconsin Healthcare Emergency Readiness Coalition" 
@@ -133,6 +293,7 @@ Portfolio.SCWIHERC = class SCWIHERC extends Component {
                 url="http://scwiherc.org" 
                 urlText="scwiherc.org" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -141,6 +302,27 @@ Portfolio.SCWIHERC = class SCWIHERC extends Component {
 Portfolio.Townedge = class Townedge extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Townedge" 
@@ -153,6 +335,7 @@ Portfolio.Townedge = class Townedge extends Component {
                 url="https://townedgematerials.com" 
                 urlText="townedgematerials.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -161,6 +344,27 @@ Portfolio.Townedge = class Townedge extends Component {
 Portfolio.Monkeyshines = class Monkeyshines extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Monkeyshines Bar and Grill" 
@@ -171,6 +375,7 @@ Portfolio.Monkeyshines = class Monkeyshines extends Component {
                 url="http://monkeyshinesbarandgrill.com" 
                 urlText="monkeyshinesbarandgrill.com" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }
@@ -179,6 +384,27 @@ Portfolio.Monkeyshines = class Monkeyshines extends Component {
 Portfolio.Kinergetics = class Kinergetics extends Component {
 
     render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "wordpress":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
         return (
             <Website 
                 title="Kinergetics" 
@@ -189,6 +415,144 @@ Portfolio.Kinergetics = class Kinergetics extends Component {
                 url="https://kinergetics.net" 
                 urlText="kinergetics.net" 
                 componentClasses={this.props.classes}
+                technologies={technologiesUsed}
+            />
+        );
+    }
+}
+
+Portfolio.Wsfia = class Wsfia extends Component {
+
+    render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "nodejs":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                    case "gcp":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
+        return (
+            <Website 
+                title="Wisconsin State Fire Inspectors Association" 
+                description={<>
+                    <p>Since I took over WSFIA's website it has gone through 3 major versions, and all 3 have taken different approaches to make it 
+                    easier to use for the association members. The first version was essentially a rehash of the old website, but with 
+                    pdated code using just PHP and MySQL.</p>
+
+                    <p>The second version was a complete overhaul using WordPress and PayPal. We went with WordPress in hopes to eventually have 
+                    certain members take over the editing of most of the content, however I ended up doing most of the editing. In addition to 
+                    the new look, I created a plugin for the membership login and registration, and conference registration in efforts to make 
+                    those processes easier to use while using the WordPress framework and PayPal integration.</p>
+
+                    <p>The third and current version is written in PHP, Node.js, and EJS for templating with PayPal integration. Also, it is hosted 
+                    on the Google Cloud Platform. This gave me essentially free reign to learn and try new things to improve their website.</p>
+
+                    <p>I know the website doesn't look like much, however I needed to really simplify the processes.</p>
+                </>} 
+                url="https://wsfia.org" 
+                urlText="wsfia.org" 
+                componentClasses={this.props.classes}
+                technologies={technologiesUsed}
+            />
+        );
+    }
+}
+
+Portfolio.KinergeticsEnergyMatrix = class KinergeticsEnergyMatrix extends Component {
+
+    render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "javascript":
+                    case "css":
+                    case "apache":
+                    case "php7":
+                    case "mysql":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
+        return (
+            <Website 
+                title="Kinergetics' Energy Matrix" 
+                description={<>
+                    <p>Kinergetics wants to be able to show their customers real-time sensor data to their customers. This is a work in progress, 
+                    but here’s what me and the other two people working on this project have to do.</p>
+
+                    <p>What needs to be done is pull data from sensors using webhooks into a database. Then transform the data by calling methods, 
+                    written in PHP and Vanilla JS, to return calculated data points that will then be displayed in a graph in a website/web app.</p>
+                </>} 
+                url="https://kinergetics.net/app" 
+                urlText="kinergetics.net/app" 
+                componentClasses={this.props.classes}
+                technologies={technologiesUsed}
+            />
+        );
+    }
+}
+
+Portfolio.DevFecta = class DevFecta extends Component {
+
+    render() {
+
+        let technologiesUsed = [];
+
+        if (this.props.technologies) {
+            
+            Object.entries(this.props.technologies).forEach( (technology, index) => {
+                switch(technology[0]) {
+                    case "react":
+                    case "css":
+                    case "apache":
+                    case "gcp":
+                        technologiesUsed.push(technology[1])
+                        break;
+                    default:
+                        break;
+                }
+                
+            });
+
+        }
+
+        return (
+            <Website 
+                title="DevFecta, LLC" 
+                description={<>
+                    <p>DevFecta is my own website and is serving as a way for me to learn React and Google Cloud Platform. 
+                    So far in addition to learning React I'm also experimenting with installing my own SSL certificates 
+                    and hosting multiple websites on 1 GCP virtual machine.</p>
+                </>} 
+                url="https://devfecta.com" 
+                urlText="devfecta.com" 
+                componentClasses={this.props.classes}
+                technologies={technologiesUsed}
             />
         );
     }

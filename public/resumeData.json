@@ -25,6 +25,7 @@
         , "npm" : { "description" : "NPM", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/NPM" }
         , "php5" : { "description" : "PHP 5.x (Procedural) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/PHP" }
         , "php7" : { "description" : "PHP 7.x (Procedural & PDO) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/PHP" }
+        , "php8" : { "description" : "PHP 8.x (Procedural & PDO) (Provided by website service and self-configured)", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/PHP" }
         , "postman" : { "description" : "Postman", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Postman" }
         , "react" : { "description" : "React", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/React" }
         , "ssh" : { "description" : "SSH", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/SSH" }

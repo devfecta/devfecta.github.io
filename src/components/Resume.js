@@ -5,7 +5,7 @@ import '../css/Resume.css';
 class Resume extends Component {
 
     componentDidMount() {
-        console.log(this.props);
+        //console.log(this.props);
         document.title = this.props.title;
     }
 
