@@ -57,7 +57,7 @@ class App extends Component {
 							<Route path="/contact-thank-you" component={ContactThankYou} />
 
 							<Route path="/portfolio/prosource" component={Portfolio.Prosource} />
-							<Route path="/portfolio/first-response-well" component={Portfolio.FirstRespondWell} />
+							<Route path="/portfolio/first-respond-well" component={Portfolio.FirstRespondWell} />
 							<Route path="/portfolio/first-due-construction" component={Portfolio.FirstDueConstruction} />
 							<Route path="/portfolio/metal-decor-studios" component={Portfolio.MetalDecorStudios} />
 							<Route path="/portfolio/alts-operation" component={Portfolio.AltsOperation} />
