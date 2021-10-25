@@ -2,7 +2,7 @@
 Prussian Blue: #003153
 Orange: #ff6000
 Green: #203731
-Packer Yellow: #ffb612
+Yellow: #cf8f00
 
 */
 body {
@@ -28,7 +28,7 @@ h6 {
 }
 
 a {
-  color: #ffb612;
+  color: #cf8f00;
   text-decoration: none;
 }
 a:hover {
@@ -40,7 +40,7 @@ a.nav-link {
 }
 
 .link-primary {
-  color: #ffb612;
+  color: #cf8f00;
 }
 
 .link-primary:hover {
@@ -112,8 +112,8 @@ section {
 }
 
 .btn-primary {
-  background-color: #ffb612;
-  border: #ffb612 solid 1px;
+  background-color: #cf8f00;
+  border: #cf8f00 solid 1px;
   font-weight: bold;
 }
 

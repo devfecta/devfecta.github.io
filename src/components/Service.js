@@ -7,7 +7,7 @@ class Service extends Component {
     render() {
 
         const development = 
-            <svg xmlns="https://www.w3.org/2000/svg" className="float-end m-3" id="consulting" x="0px" y="0px" width="100px" height="83.703px"
+            <svg xmlns="https://www.w3.org/2000/svg" className="float-end m-3" id="devlopment" x="0px" y="0px" width="100px" height="83.703px"
                     viewBox="0 0 100 83.703" preserveAspectRatio="xMidYMid meet">
             
                     <g id="groupMonitor">
@@ -87,7 +87,51 @@ class Service extends Component {
             </svg>
         ;
 
-        const design = ``;
+        const design = 
+            <svg xmlns="https://www.w3.org/2000/svg" className="float-end m-3" id="consulting" x="0px" y="0px" width="100px" height="83.703px"
+                viewBox="0 0 100 83.703" preserveAspectRatio="xMidYMid meet">
+
+                <g id="groupMonitor">
+                    <g id="monitor">
+                        <polygon id="baseMonitor" points="57.037,66.667 65.926,74.074 65.926,79.26 31.852,79.26 31.852,74.074 
+                            40.741,66.667"/>
+                        <g id="bodyMonitor">
+                            <path d="M7.444,66.667c-1.65,0-3-1.35-3-3V3c0-1.65,1.35-3,3-3h82.889c1.65,0,3,1.35,3,3v60.667
+                                c0,1.65-1.35,3-3,3H7.444z"/>
+                        </g>
+                        <rect id="screenMonitor" x="10" y="5.926" width="77.777" height="46.666"/>
+                        <circle id="buttonMonitor" cx="48.889" cy="60" r="3.333"/>
+                    </g>
+                    <g id="contentMonitor">
+                        <g class="contentMonitor"> 
+                            <rect x="38.519" y="17.777" width="45.926" height="2.963" />
+                            <rect x="38.519" y="23.704" width="45.926" height="2.963" />
+                            <rect x="38.519" y="29.63" width="45.926" height="2.963" />
+                            <rect x="38.519" y="35.556" width="45.926" height="2.963" />
+                            <rect x="38.519" y="41.481" width="45.926" height="2.963" />
+                            <rect x="38.519" y="47.407" width="45.926" height="2.963" />
+                        </g>
+
+                        <rect class="contentMonitor" x="12.963" y="17.777" width="22.987" height="32.576"/>
+
+                        <rect class="contentMonitor" x="12.963" y="8.148" width="71.853" height="7.407"/>
+                    </g>
+
+
+
+                    <g id="drawing">
+                    
+                        <rect id="screenMask" x="10" y="5.926" width="77.777" height="46.666" />
+                    
+                        <g id="brush" transform="translate(-37,13)">
+                            <path id="brushBristle" fill="#0000ff" d="m 45.881281,37.536151 c 0,0 4.493467,-0.637205 4.398137,-3.257105 -1.470827,-3.291709 1.831516,-4.616861 4.175282,-3.24958 6.175087,5.04573 -5.59757,9.337295 -8.573419,6.506685 z" />
+                            <path id="brushHandle" fill="#000000" d="m 54.2,30.1 c 0,0 1.77837,0.888172 2.4,2.5 L 70.875778,14.617896 c 1.554199,-1.957706 0.193193,-2.804636 -1.612289,-1.049033 z" />
+                        </g>
+                    </g>
+                </g>
+
+            </svg>
+        ;
 
         const consulting = 
             <svg xmlns="https://www.w3.org/2000/svg" className="float-end m-3" id="consulting" x="0px" y="0px" width="54.546px" height="100px"

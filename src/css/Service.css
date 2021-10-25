@@ -1,82 +1,172 @@
-/* Development Icon */
+/* Development and Design Icons */
 #bodyMonitor > path,
-  #baseMonitor,
-  #bodyTablet > path,
-  #bodyPhone > path {
-      fill: #003153;
+#baseMonitor,
+#bodyTablet > path,
+#bodyPhone > path,
+#brushBristle,
+#brushHandle {
+  fill: #003153;
+}
+#buttonMonitor,
+#buttonTablet,
+#buttonPhone,
+#speakerPhone {
+  fill: #ddd;
+}
+#screenMonitor,
+#screenTablet,
+#screenPhone,
+#screenMask {
+  fill: #fff;
+}
+
+#contentLowerMonitor > rect,
+#contentMiddleMonitor,
+#contentUpperMonitor,
+#contentLowerTablet > rect,
+#contentMiddleTablet,
+#contentUpperTablet > rect,
+#contentLowerPhone > rect,
+#contentMiddlePhone,
+#contentUpperPhone > rect,
+.contentMonitor {
+  fill: #cf8f00;
+}
+
+#contentUpperMonitor,
+#contentUpperTablet,
+#contentUpperPhone {
+  position: relative;
+  animation-name: slideContentUpper;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideContentUpper {
+  0% {
+    opacity: 0;
   }
-  #buttonMonitor, #buttonTablet, #buttonPhone, #speakerPhone {
-      fill: #ddd;
+  100% {
+    opacity: 1;
   }
-  #screenMonitor, #screenTablet, #screenPhone {
-      fill: #fff;
+}
+
+#contentMiddleMonitor,
+#contentMiddleTablet,
+#contentMiddlePhone {
+  animation-name: slideContentMiddle;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideContentMiddle {
+  0%,
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#contentLowerMonitor,
+#contentLowerTablet,
+#contentLowerPhone {
+  animation-name: slideContentLower;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideContentLower {
+  0%,
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Design */
+#screenMask {
+  animation-name: slideMask;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideMask {
+  0% {
+    width: 77.777;
   }
 
-  #contentLowerMonitor > rect, #contentMiddleMonitor, #contentUpperMonitor, 
-  #contentLowerTablet > rect, #contentMiddleTablet, #contentUpperTablet > rect, 
-  #contentLowerPhone > rect, #contentMiddlePhone, #contentUpperPhone > rect {
-      fill: #cf8f00;
+  100% {
+    width: 0;
+    transform: translateX(77px);
+  }
+}
+
+#brush {
+  animation-name: slideBrush;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideBrush {
+  0% {
+    transform: translate(-37px, 13px);
+    opacity: 1;
   }
 
-  #contentUpperMonitor, #contentUpperTablet, #contentUpperPhone {
-      position: relative;
-      animation-name: slideContentUpper;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
+  10% {
+    transform: translate(-25px, -20px);
   }
 
-  @keyframes slideContentUpper {
-      0% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-      
+  20% {
+    transform: translate(-13px, 13px);
   }
 
-  #contentMiddleMonitor, #contentMiddleTablet, #contentMiddlePhone {
-      animation-name: slideContentMiddle;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
+  30% {
+    transform: translate(-1px, -20px);
   }
 
-  @keyframes slideContentMiddle {
-      0%, 30% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-      
+  40% {
+    transform: translate(9px, 13px);
   }
 
-  #contentLowerMonitor, #contentLowerTablet, #contentLowerPhone {
-      animation-name: slideContentLower;
-      animation-duration: 3s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
+  50% {
+    transform: translate(21px, -20px);
+    opacity: 1;
   }
 
-  @keyframes slideContentLower {
-      0%, 60% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-      
+  60% {
+    transform: translate(33px, 13px);
   }
 
+  70% {
+    transform: translate(45px, -20px);
+    opacity: 0;
+  }
 
+  80% {
+    transform: translate(50px, 13px);
+  }
+
+  100% {
+    transform: translate(55px, 13px);
+    opacity: 0;
+  }
+}
 
 /* Consulting Icon */
 #phone {
   fill: #003153;
 }
-#speaker, #home-button {
+#speaker,
+#home-button {
   fill: #ddd;
 }
 #screen {
@@ -94,24 +184,24 @@
 
 @keyframes slideUpQuestion {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   20% {
-      opacity: 0;
-      transform: translateY(0px);
+    opacity: 0;
+    transform: translateY(0px);
   }
   40% {
-      opacity: 0;
-      transform: translateY(25px);
+    opacity: 0;
+    transform: translateY(25px);
   }
-  60%, 80% {
-      opacity: 1;
-      transform: translateY(25px);
+  60%,
+  80% {
+    opacity: 1;
+    transform: translateY(25px);
   }
   100% {
-      transform: translateY(0px);
+    transform: translateY(0px);
   }
-  
 }
 
 #answer {
@@ -125,23 +215,23 @@
 
 @keyframes slideUpAnswer {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
-  20%, 60% {
-      opacity: 1;
-      transform: translateY(-35px);
+  20%,
+  60% {
+    opacity: 1;
+    transform: translateY(-35px);
   }
   80% {
-      opacity: 0;
-      transform: translateY(-35px);
+    opacity: 0;
+    transform: translateY(-35px);
   }
   81% {
-      opacity: 0;
-      transform: translateY(0px);
+    opacity: 0;
+    transform: translateY(0px);
   }
   100% {
-      opacity: 1;
-      transform: translateY(0px);
+    opacity: 1;
+    transform: translateY(0px);
   }
-
 }

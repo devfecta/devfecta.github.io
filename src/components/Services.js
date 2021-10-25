@@ -51,30 +51,11 @@ class Services extends Component {
                                     <li>Search Engine Readability</li>
                                     <li>Page Speed Test</li>
                                     <li>Website Optimization</li>
-                                    <li>1 Hours of Personalized Support/Month</li>
+                                    <li>2 Hours of Personalized Support</li>
                                 </ul>
                             </>} 
-                            pricing={<>$100/billed monthly</>} 
+                            pricing={<>$150/billed monthly</>} 
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Month" />
-                    </article>
-
-                    <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
-                        <Subscription 
-                            title="3-Months Plan" 
-                            subTitle="Ongoing Updating and Monitoring" 
-                            description={<>
-                                <ul className="fs-6 mx-5 text-start">
-                                    <li>Updates &amp; Maintenance</li>
-                                    <li>Security Scan &amp; 3 Backups</li>
-                                    <li>Search Engine Readability</li>
-                                    <li>Page Speed Test</li>
-                                    <li>Website Optimization</li>
-                                    <li>Sitemap Update</li>
-                                    <li>2 Hours of Personalized Support/Month</li>
-                                </ul>
-                            </>} 
-                            pricing={<>$290/billed quarterly</>} 
-                            link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-3Months" />
                     </article>
 
                     <article className="col-sm-10 col-md-5 col-lg-5 col-xl-3">
@@ -91,10 +72,10 @@ class Services extends Component {
                                     <li>Website Optimization</li>
                                     <li>Sitemap Update</li>
                                     <li>Search Engine Performance Report</li>
-                                    <li>3 Hours of Personalized Support/Month</li>
+                                    <li>12 Hours of Personalized Support</li>
                                 </ul>
                             </>} 
-                            pricing={<>$575/billed biannually</>} 
+                            pricing={<>$725/billed biannually</>} 
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-6Months" />
                     </article>
 
@@ -112,10 +93,10 @@ class Services extends Component {
                                     <li>Website Optimization</li>
                                     <li>Sitemap Update</li>
                                     <li>Search Engine Performance Report</li>
-                                    <li>4 Hours of Personalized Support/Month</li>
+                                    <li>24 Hours of Personalized Support</li>
                                 </ul>
                             </>} 
-                            pricing={<>$1100/billed annually</>} 
+                            pricing={<>$1200/billed annually</>} 
                             link="https://subscriptions.zoho.com/subscribe/c9ab66510705a1462cdc8324e7d90ae06a2bba0f6b053217afe8ded60e8a6aa6/WWCP-1Year" />
                     </article>
 
