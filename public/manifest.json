@@ -1,6 +1,8 @@
 {
   "short_name": "DevFecta",
-  "name": "DevFecta - Development | Design | Consulting",
+  "name": "DevFecta, LLC",
+  "description": "DevFecta is a Madison, Wisconsin based company that offers professional website design, web development, graphic design, and consulting services.",
+  "lang": "en-US",
   "icons": [
     {
       "src": "./images/favicon.ico",
@@ -15,6 +17,7 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "theme_color": "#003153",
   "background_color": "#003153"
 }

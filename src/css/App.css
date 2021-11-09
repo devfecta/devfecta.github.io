@@ -1,3 +1,10 @@
+/*
+Prussian Blue: #003153
+Orange: #ff6000
+Green: #203731
+Yellow: #cf8f00
+
+*/
 body {
   margin: 0;
   padding: 0;
@@ -10,25 +17,55 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #003153;
   font-weight: bold;
 }
 
 a {
+  color: #cf8f00;
   text-decoration: none;
+}
+a:hover {
+  color: #003153;
 }
 
 a.nav-link {
   font-weight: normal;
 }
 
-main a[target="_blank"] {
+.link-primary {
+  color: #cf8f00;
+}
+
+.link-primary:hover {
+  color: #003153;
+}
+
+main {
+  position: relative;
+  padding-top: 4.8em;
+  min-height: calc(100vh - 3.5em);
+  background-color: #003153;
+}
+
+main a {
   font-style: normal;
   font-weight: bold;
+  color: #cf8f00;
 }
 
 main a[target="_blank"]:after {
   content: " \1F517";
+}
+
+.hideLinkIcon:after {
+  content: "" !important;
 }
 
 .badge-devfecta {
@@ -55,12 +92,6 @@ header {
   z-index: 1000;
 }
 
-main {
-  position: relative;
-  padding-top: 4.8em;
-  min-height: calc(100vh - 3.5em);
-}
-
 section {
   position: relative;
 }
@@ -72,17 +103,22 @@ section {
   background-color: #fff;
 }
 
+.text-devfecta {
+  color: #003153 !important;
+}
+
 .border-primary {
   border-color: #003153 !important;
 }
 
 .btn-primary {
-  background-color: #003153;
-  border: #003153 solid 1px;
+  background-color: #cf8f00;
+  border: #cf8f00 solid 1px;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #001e33;
+  background-color: #003153;
   border: #003153 solid 1px;
 }
 
@@ -90,6 +126,10 @@ footer {
   background-color: #333;
   padding: 1em;
   z-index: 1;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
 
 .card {
@@ -104,14 +144,29 @@ footer {
   text-align: center;
 }
 
-main {
-  background-color: #003153;
+.zsiq_flt_rel,
+.zsiq_seasonal .st2 {
+  background-color: #000306 !important;
+}
+.zsiq_flt_rel,
+.zsiq_seasonal .st2 {
+  background-color: #00528c !important;
 }
 
-@media (max-width: 991.97px) { 
-  body { background-color: #003153 !important; };
+@media (max-width: 1080px) {
+  .portfolio-img {
+    display: none;
+  }
+}
+
+@media (max-width: 991.97px) {
+  body {
+    background-color: #003153 !important;
+  }
 }
 
 @media (min-width: 991.98px) {
-  main { background-color: #fff !important; };
+  main {
+    background-color: #fff !important;
+  }
 }

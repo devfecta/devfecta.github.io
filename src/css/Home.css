@@ -29,3 +29,22 @@
   z-index: 100;
   position: relative;
 }
+
+@media (max-width: 767px) {
+  body {
+    background-color: #003153 !important;
+  }
+  .mapStyle > div {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    background-color: #fff !important;
+  }
+  .mapStyle > div {
+    width: 50vw;
+  }
+}
+

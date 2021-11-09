@@ -1,5 +1,4 @@
+Sitemap: https://devfecta.com/sitemap.xml
 User-agent: *
-
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /images/
+Allow: /static/
+Disallow: /static/css/
