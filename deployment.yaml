@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devfecta-nginx-gke
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devfecta-nginx-gke
+  template:
+    metadata:
+      labels:
+        app: devfecta-nginx-gke
+    spec:
+      containers:
+      - name: devfecta-nginx-gke
+        image: gcr.io/devfecta-hosting/devfecta-nginx
+        ports:
+        - containerPorts 8080
+        env:
+          - name: PORT
+            value: "8080"
