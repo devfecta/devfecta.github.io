@@ -25,6 +25,11 @@ class Home extends Component {
                                 <p className="container">DevFecta (<em>duh·eh·vuh·fek·tuh</em>) is a web development, design, and consulting company based in Madison, Wisconsin that offers professional 
                                     website design, web development, and graphic design services. In addition, I also offer consulting services for 
                                     when you just need a little help with a current web project.</p>
+                                
+                        </div>
+                        <div className="px-3 d-flex align-items-center">
+                            <p className="container alert alert-warning fs-5 text-center">Due to an increase in workload, I can't take on additional clients. However, 
+                                I'm still more than happy to lend assistance when available.</p>
                         </div>
                     </article>
                 </section>
@@ -81,7 +86,7 @@ class Home extends Component {
                     <article className="col-sm-12 col-md-6 py-3 text-light d-flex justify-content-center align-items-center">
                         <address style={{ listStyleType: "none", lineHeight: "2em" }}>
                             <strong className="h3">DevFecta, LLC</strong><br />
-                            <FaMapMarkerAlt /> 1574 W Broadway Suite 200, Madison, WI 53713<br />
+                            <FaMapMarkerAlt /> 2630 Stanbrook Street, Fitchburg, WI 53711<br />
                             <FaPhone /> <a href="tel:+1608-334-7200" className="text-light">(608) 334-7200</a><br />
                             <FaAt /> <a href="mailto:kkelm@devfecta.com" className="text-light">kkelm@devfecta.com</a><br />
                             <FaLinkedin /> <a href="https://www.linkedin.com/company/devfecta" className="text-light" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/company/devfecta</a><br />
