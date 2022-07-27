@@ -103,7 +103,7 @@ class Service extends Component {
                         <circle id="buttonMonitor" cx="48.889" cy="60" r="3.333"/>
                     </g>
                     <g id="contentMonitor">
-                        <g class="contentMonitor"> 
+                        <g className="contentMonitor"> 
                             <rect x="38.519" y="17.777" width="45.926" height="2.963" />
                             <rect x="38.519" y="23.704" width="45.926" height="2.963" />
                             <rect x="38.519" y="29.63" width="45.926" height="2.963" />
@@ -112,9 +112,9 @@ class Service extends Component {
                             <rect x="38.519" y="47.407" width="45.926" height="2.963" />
                         </g>
 
-                        <rect class="contentMonitor" x="12.963" y="17.777" width="22.987" height="32.576"/>
+                        <rect className="contentMonitor" x="12.963" y="17.777" width="22.987" height="32.576"/>
 
-                        <rect class="contentMonitor" x="12.963" y="8.148" width="71.853" height="7.407"/>
+                        <rect className="contentMonitor" x="12.963" y="8.148" width="71.853" height="7.407"/>
                     </g>
 
 
