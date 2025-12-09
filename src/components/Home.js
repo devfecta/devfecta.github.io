@@ -28,10 +28,6 @@ class Home extends Component {
                                 
                         </div>
                         <div className="px-3 d-flex align-items-center">
-                            <p className="container alert alert-warning fs-5 text-center">Due to an increase in workload, I can't take on additional clients. However, 
-                                I'm still more than happy to lend assistance when available.</p>
-                        </div>
-                        <div className="px-3 d-flex align-items-center">
                             <p className="container alert alert-warning fs-5 text-center">
                                 Due to an increase in workload, I can't take on additional clients. However, I'm still more than happy to lend assistance when available.
                             </p>
