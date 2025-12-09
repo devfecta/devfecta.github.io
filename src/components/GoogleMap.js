@@ -49,18 +49,22 @@ class GoogleMap extends Component {
 
     render() {
       return (
-
-          <GoogleMapReact
-            bootstrapURLKeys={{ key: "" }}
-            defaultCenter={defaultProps.center}
-            defaultZoom={14}
-            className="mapStyle"
+        <Map
+            google={this.props.google}
+            zoom={17}
             style={mapStyle}
-          >
-            <AnyReactComponent
-              lat={43.0476791}
-              lng={-89.3417825}
-              text="My Marker"
+            containerStyle={containerStyle}
+            className="mapStyle"
+            initialCenter={
+                {
+                    lat: 42.998520, 
+                    lng: -89.444240
+                }
+            }
+        >
+            <Marker
+            onClick={this.onMarkerClick}
+            name={'DevFecta, LLC'}
             />
           </GoogleMapReact>
 
