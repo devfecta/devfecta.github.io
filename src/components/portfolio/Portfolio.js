@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Website from './Website';
 
 const Portfolio = ({item}) => item;

@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import App from './App';
+import App from "./App";
 import { register } from './serviceWorker';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+const rootElement = document.getElementById("bodyTag");
+const root = createRoot(rootElement);
+
 register();
 
-ReactDOM.render(
-    <App />,
-  document.getElementById('bodyTag')
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
 );
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+
+// import App from './App';
+// import { register } from './serviceWorker';
+
+// // If you want your app to work offline and load faster, you can change
+// // unregister() to register() below. Note this comes with some pitfalls.
+// // Learn more about service workers: https://bit.ly/CRA-PWA
+// register();
+
+// ReactDOM.render(
+//     <App />,
+//   document.getElementById('bodyTag')
+// );
 
 

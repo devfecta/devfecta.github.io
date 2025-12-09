@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import '../css/Subscription.css';
@@ -16,10 +16,11 @@ class Subscription extends Component {
 
                     <p className="card-subtitle h5 mb-3">{this.props.subTitle}</p>
                     {this.props.description}
+                    {/* 
                     <p className="card-text fs-4 mb-3">{this.props.pricing}</p>
 
                     <a href={this.props.link} className="btn btn-primary">Order {this.props.title}</a>
-
+                     */}
                 </div>
                 <div className="card-footer">
                     <Link to="/termsWebsiteCarePlan" className="link-primary fs-6">Terms &amp; Conditions</Link>
