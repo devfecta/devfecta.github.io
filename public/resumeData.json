@@ -8,6 +8,7 @@
         , "api" : { "description" : "API and Web Services", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/API-and-Web-Services" }
         , "asp" : { "description" : "ASP.Net", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/ASP.Net" }
         , "azure" : { "description" : "Azure", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Azure" }
+        , "csharp" : { "description" : "C#/ASP.Net", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/ASP.Net" }
         , "css" : { "description" : "CSS/Bootstrap", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/CSS" }
         , "docker" : { "description" : "Docker", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Docker" }
         , "git" : { "description" : "Git", "wiki" : "https://github.com/devfecta/devfecta.github.io/wiki/Git" }
@@ -35,9 +36,18 @@
 
     "jobs": [ 
         {
+            "companyName" : "Department of Workforce Development",
+            "jobTitle" : "Webmaster",
+            "city" : "Madison, WI",
+            "description" : "Design, develop, and maintain websites using an array of technologies, languages, and frameworks.",
+            "technologiesUsed" : ["csharp", "jquery", "javascript", "css", "html", "git", "api", "mvc", "azure"],
+            "startDate": "March 2008",
+            "endDate": "Present"
+        },
+        {
             "companyName" : "DevFecta",
             "jobTitle" : "Web Developer",
-            "city" : "Fitchburg, WI",
+            "city" : "Stoughton, WI",
             "description" : "Design and develop websites using an array of technologies, languages, and frameworks, along with providing graphic design services.",
             "technologiesUsed" : ["linux", "php5", "php7", "apache", "mysql", "angular", "react", "jquery", "javascript", "nodejs", "java", "typescript", "css", "html", "git", "api", "mvc", "wordpress", "npm", "postman", "docker", "ssh", "gcp", "azure"],
             "startDate": "March 2008",

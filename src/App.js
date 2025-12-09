@@ -1,5 +1,5 @@
-import React, { Component }  from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Component }  from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -13,10 +13,11 @@ import Portfolios from './components/Portfolios';
 import ConfirmSubscription from './components/ConfirmSubscription';
 import TermsWebsiteCarePlan from './components/TermsWebsiteCarePlan';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './css/App.css';
 import Portfolio from './components/portfolio/Portfolio';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/App.css';
 
 class App extends Component {
 
@@ -47,32 +48,29 @@ class App extends Component {
 			<Router basename="/">
 				<Header />
 					<main>
-						<Switch>
-							<Route exact path="/" component={Home} />
-							<Route path="/services" render={props => (<Services {...props} title={"Services - " + document.title} />)} />
-							<Route path="/resume" render={props => (<Resume {...props} resumeData={this.state.workExperience} title={"Resume - " + document.title} />)} />
-							<Route exact path="/portfolio" render={props => (<Portfolios {...props} resumeData={this.state.workExperience} title={"Portfolio - " + document.title} />)} />
-							<Route path="/confirmSubscription" component={ConfirmSubscription} />
-							<Route path="/termsWebsiteCarePlan" render={props => (<TermsWebsiteCarePlan {...props} title={"Terms and Conditions - " + document.title} />)} />
-							<Route path="/contact-thank-you" component={ContactThankYou} />
+						<Routes>
+							<Route path="/" element={<Home />} />
+							<Route path="/services" element={<Services title={"Services - " + document.title} />} />
+							<Route path="/resume" element={<Resume resumeData={this.state.workExperience} title={"Resume - " + document.title} />} />
+							<Route path="/portfolio" element={<Portfolios resumeData={this.state.workExperience} title={"Portfolio - " + document.title} />} />
+							<Route path="/confirmSubscription" Component={ConfirmSubscription} />
+							<Route path="/termsWebsiteCarePlan" element={<TermsWebsiteCarePlan title={"Terms and Conditions - " + document.title} />} />
+							<Route path="/contact-thank-you" Component={ContactThankYou} />
 
-							<Route path="/portfolio/prosource" render={props => (<Portfolio.Prosource {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/first-response-well" render={props => (<Portfolio.FirstRespondWell {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/first-due-construction" render={props => (<Portfolio.FirstDueConstruction {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/metal-decor-studios" render={props => (<Portfolio.MetalDecorStudios {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/alts-operation" render={props => (<Portfolio.AltsOperation {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/scrtac" render={props => (<Portfolio.Scrtac {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/scwiherc" render={props => (<Portfolio.Scwiherc {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/townedge" render={props => (<Portfolio.Townedge {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/monkeyshines" render={props => (<Portfolio.Monkeyshines {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/kinergetics" render={props => (<Portfolio.Kinergetics {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/wsfia" render={props => (<Portfolio.Wsfia {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/kinergetics-energy-matrix" render={props => (<Portfolio.KinergeticsEnergyMatrix {...props} technologies={this.state.workExperience.technologies} />)} />
-							<Route path="/portfolio/devfecta" render={props => (<Portfolio.DevFecta {...props} technologies={this.state.workExperience.technologies} />)} />
-							
-							
-												
-						</Switch>
+							<Route path="/portfolio/prosource" element={<Portfolio.Prosource technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/first-response-well" element={<Portfolio.FirstRespondWell technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/first-due-construction" element={<Portfolio.FirstDueConstruction technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/metal-decor-studios" element={<Portfolio.MetalDecorStudios technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/alts-operation" element={<Portfolio.AltsOperation technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/scrtac" element={<Portfolio.Scrtac technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/scwiherc" element={<Portfolio.Scwiherc technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/townedge" element={<Portfolio.Townedge technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/monkeyshines" element={<Portfolio.Monkeyshines technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/kinergetics" element={<Portfolio.Kinergetics technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/wsfia" element={<Portfolio.Wsfia technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/kinergetics-energy-matrix" element={<Portfolio.KinergeticsEnergyMatrix technologies={this.state.workExperience.technologies} />} />
+							<Route path="/portfolio/devfecta" element={<Portfolio.DevFecta technologies={this.state.workExperience.technologies} />} />				
+						</Routes>
 					</main>
 				
 				<Footer />

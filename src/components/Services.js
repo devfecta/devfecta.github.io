@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Subscription from './Subscription';
 
 import { FaWordpress } from 'react-icons/fa';

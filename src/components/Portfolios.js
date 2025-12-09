@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { FaWordpress } from 'react-icons/fa';
 import Portfolio from './portfolio/Portfolio';
 
@@ -56,18 +56,15 @@ class Portfolios extends Component {
                     <Portfolio.FirstRespondWell classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
                     <Portfolio.FirstDueConstruction classes="col-md-6" technologies={this.props.resumeData.technologies} />
-
+{/* 
                     <Portfolio.MetalDecorStudios classes="col-md-6" technologies={this.props.resumeData.technologies} />
-
-                    <Portfolio.AltsOperation classes="col-md-6" technologies={this.props.resumeData.technologies} />
-
+                    <Portfolio.AltsOperation classes="col-md-6" technologies={this.props.resumeData.technologies} /> 
+                    <Portfolio.Townedge classes="col-md-6" technologies={this.props.resumeData.technologies} />
+                    <Portfolio.Monkeyshines classes="col-md-6" technologies={this.props.resumeData.technologies} />
+*/}
                     <Portfolio.Scrtac classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
                     <Portfolio.Scwiherc classes="col-md-6" technologies={this.props.resumeData.technologies} />
-
-                    <Portfolio.Townedge classes="col-md-6" technologies={this.props.resumeData.technologies} />
-
-                    <Portfolio.Monkeyshines classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
                     <Portfolio.Kinergetics classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
@@ -77,7 +74,7 @@ class Portfolios extends Component {
 
                     <h1 className="text-light p-3 text-center">Custom Development</h1>
                     
-                    <Portfolio.Wsfia classes="col-md-6" technologies={this.props.resumeData.technologies} />
+                    {/* <Portfolio.Wsfia classes="col-md-6" technologies={this.props.resumeData.technologies} /> */}
 
                     <Portfolio.KinergeticsEnergyMatrix classes="col-md-6" technologies={this.props.resumeData.technologies} />
 
@@ -104,9 +101,9 @@ class Portfolios extends Component {
                     <article className="portfolio-article col-md-6 p-5">
                         <h2>Be Dynamic Training &amp; Firefighter Dynamic Performance Training</h2>
                         <p className="caption">(WordPress &amp; Design Consulting)</p>
-                        <a href="https://bedynamictraining.com" target="_blank" rel="noopener noreferrer">bedynamictraining.com</a> &nbsp; | &nbsp; 
+                        <a href="https://bedynamictraining.com" target="_blank" rel="noopener noreferrer">bedynamictraining.com</a> &nbsp; 
                         
-                        <a href="https://fd-pt.com" target="_blank" rel="noopener noreferrer">fd-pt.com</a>
+                        {/* | &nbsp; <a href="https://fd-pt.com" target="_blank" rel="noopener noreferrer">fd-pt.com</a> */}
                         <p>These projects mostly involved modification of graphics and the creation of a brochure, but I also helped the client 
                             organize his workout programs using a WordPress plugin he purchased and integrate the purchase of subscriptions 
                             to those programs with WooCommerce.</p>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Nav, Navbar } from "react-bootstrap";
 import DevFectaLogo from "./DevFectaLogo";
 
